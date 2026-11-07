@@ -1,0 +1,199 @@
+{
+  "section": "3.7 中心势的薛定谔方程",
+  "source": "习题3.28 PDF261/印刷239；正文式3.287-3.289 PDF217/印刷195",
+  "required_parameters": [
+    4,
+    10,
+    25,
+    100
+  ],
+  "energy_zero": "V_inside=0, V_outside=V0; Ea=hbar^2/(2 M a^2)",
+  "method": "bracketed bisection; independent phase equation checks the finite ground-state branch",
+  "original_exercise_required": "l=0,1,2 infinite well spectra and four finite l=0 ground energies",
+  "teaching_supplements": "continuous convergence curve, roots plot, radial density and leakage probability",
+  "status": "passed",
+  "all_checks_passed": true,
+  "checks": {
+    "infinite_spherical_bessel_roots": {
+      "max_abs_error": 9.71445146547012e-16,
+      "tolerance": 3e-13,
+      "passed": true
+    },
+    "textbook_two_decimal_root_values": {
+      "max_abs_error": 0.0049886695236480705,
+      "tolerance": 0.0051,
+      "passed": true
+    },
+    "finite_matching_equation": {
+      "max_abs_error": 3.291233952040784e-11,
+      "tolerance": 3e-10,
+      "passed": true
+    },
+    "finite_independent_phase_equation": {
+      "max_abs_error": 7.105427357601002e-15,
+      "tolerance": 2e-13,
+      "passed": true
+    },
+    "finite_two_root_methods": {
+      "max_abs_error": 5.773159728050814e-15,
+      "tolerance": 5e-13,
+      "passed": true
+    },
+    "finite_wavefunction_derivative_matching": {
+      "max_abs_error": 7.651657085716579e-13,
+      "tolerance": 3e-11,
+      "passed": true
+    },
+    "finite_norm_analytic": {
+      "max_abs_error": 1.1102230246251565e-16,
+      "tolerance": 3e-15,
+      "passed": true
+    },
+    "radial_probability_quadrature": {
+      "max_abs_error": 3.0753177782116836e-14,
+      "tolerance": 2e-09,
+      "passed": true
+    }
+  },
+  "infinite_well": [
+    {
+      "l": 0,
+      "radial_root_number": 1,
+      "ka": 3.141592653589793,
+      "E_over_Ea": 9.869604401089358,
+      "magnetic_degeneracy": 1,
+      "j_l_residual": 3.8981718325193755e-17,
+      "textbook_ka_display": 3.141592653589793
+    },
+    {
+      "l": 0,
+      "radial_root_number": 2,
+      "ka": 6.283185307179586,
+      "E_over_Ea": 39.47841760435743,
+      "magnetic_degeneracy": 1,
+      "j_l_residual": -3.8981718325193755e-17,
+      "textbook_ka_display": 6.283185307179586
+    },
+    {
+      "l": 0,
+      "radial_root_number": 3,
+      "ka": 9.42477796076938,
+      "E_over_Ea": 88.82643960980423,
+      "magnetic_degeneracy": 1,
+      "j_l_residual": 3.8981718325193755e-17,
+      "textbook_ka_display": 9.42477796076938
+    },
+    {
+      "l": 1,
+      "radial_root_number": 1,
+      "ka": 4.493409457909069,
+      "E_over_Ea": 20.19072855642667,
+      "magnetic_degeneracy": 3,
+      "j_l_residual": -9.71445146547012e-16,
+      "textbook_ka_display": 4.49
+    },
+    {
+      "l": 1,
+      "radial_root_number": 2,
+      "ka": 7.725251836937705,
+      "E_over_Ea": 59.67951594410938,
+      "magnetic_degeneracy": 3,
+      "j_l_residual": -2.740863092043355e-16,
+      "textbook_ka_display": 7.73
+    },
+    {
+      "l": 1,
+      "radial_root_number": 3,
+      "ka": 10.904121659428897,
+      "E_over_Ea": 118.8998691636264,
+      "magnetic_degeneracy": 3,
+      "j_l_residual": 2.3765711620882257e-16,
+      "textbook_ka_display": 10.9
+    },
+    {
+      "l": 2,
+      "radial_root_number": 1,
+      "ka": 5.76345919689455,
+      "E_over_Ea": 33.21746191426837,
+      "magnetic_degeneracy": 5,
+      "j_l_residual": 4.163336342344337e-17,
+      "textbook_ka_display": 5.76
+    },
+    {
+      "l": 2,
+      "radial_root_number": 2,
+      "ka": 9.095011330476352,
+      "E_over_Ea": 82.71923110149322,
+      "magnetic_degeneracy": 5,
+      "j_l_residual": -3.885780586188048e-16,
+      "textbook_ka_display": 9.1
+    },
+    {
+      "l": 2,
+      "radial_root_number": 3,
+      "ka": 12.322940970566577,
+      "E_over_Ea": 151.85487416406835,
+      "magnetic_degeneracy": 5,
+      "j_l_residual": 3.7816971776294395e-16,
+      "textbook_ka_display": 12.32
+    }
+  ],
+  "finite_well": [
+    {
+      "beta": 4.0,
+      "V0_over_Ea": 16.0,
+      "ka": 2.4745767873698297,
+      "kappa_a": 3.1426851136266283,
+      "E_over_Ea": 6.123530276589587,
+      "E_over_V0": 0.3827206422868492,
+      "E_over_E_infinite": 0.620443335693749,
+      "relative_deficit_to_infinite": 0.379556664306251,
+      "outside_probability_teaching_supplement": 0.09238468089885876,
+      "dimensionless_radial_amplitude": 1.2317553865380704,
+      "matching_residual": -5.329070518200751e-15,
+      "independent_phase_residual": 8.881784197001252e-16
+    },
+    {
+      "beta": 10.0,
+      "V0_over_Ea": 100.0,
+      "ka": 2.852341894450092,
+      "kappa_a": 9.584578536230211,
+      "E_over_Ea": 8.135854282835139,
+      "E_over_V0": 0.08135854282835138,
+      "E_over_E_infinite": 0.8243343858784394,
+      "relative_deficit_to_infinite": 0.17566561412156056,
+      "outside_probability_teaching_supplement": 0.007686516997334111,
+      "dimensionless_radial_amplitude": 1.3457510370863242,
+      "matching_residual": -5.329070518200751e-15,
+      "independent_phase_residual": 4.440892098500626e-16
+    },
+    {
+      "beta": 25.0,
+      "V0_over_Ea": 625.0,
+      "ka": 3.0204776614628823,
+      "kappa_a": 24.816863514485544,
+      "E_over_Ea": 9.123285303396282,
+      "E_over_V0": 0.01459725648543405,
+      "E_over_E_infinite": 0.924382065646856,
+      "relative_deficit_to_infinite": 0.07561793435314401,
+      "outside_probability_teaching_supplement": 0.000565415565575704,
+      "dimensionless_radial_amplitude": 1.3865537334093858,
+      "matching_residual": -3.943512183468556e-13,
+      "independent_phase_residual": 2.220446049250313e-15
+    },
+    {
+      "beta": 100.0,
+      "V0_over_Ea": 10000.0,
+      "ka": 3.1104828076215076,
+      "kappa_a": 99.95161277690066,
+      "E_over_Ea": 9.675103296508977,
+      "E_over_V0": 0.0009675103296508977,
+      "E_over_E_infinite": 0.9802929178641737,
+      "relative_deficit_to_infinite": 0.01970708213582628,
+      "outside_probability_teaching_supplement": 9.583901663749697e-06,
+      "dimensionless_radial_amplitude": 1.4071917170357928,
+      "matching_residual": -7.489120434911456e-12,
+      "independent_phase_residual": 2.6645352591003757e-15
+    }
+  ]
+}

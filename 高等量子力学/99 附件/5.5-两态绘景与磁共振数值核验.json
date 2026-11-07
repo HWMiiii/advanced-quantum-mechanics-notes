@@ -1,0 +1,179 @@
+{
+  "units": "s=γt/ℏ, delta/g, g=γ/ℏ; hbar=g=1 in numerical equations",
+  "example": "教学计算，不计教材原题",
+  "resonance": {
+    "first_transfer_g_t": 1.5707963267948966,
+    "return_g_t": 3.141592653589793,
+    "FWHM_over_g": 4,
+    "delta_2g_peak": 0.5,
+    "delta_2g_fixed_pi_pulse": 0.3165638355103539
+  },
+  "linear_drive_comparison": {
+    "30": {
+      "omega21_over_g": 30.0,
+      "B1_over_B0": 0.06666666666666667,
+      "max_probability_difference_first_resonant_cycle": 0.017126863565255335,
+      "P2_at_pi_pulse_time": 0.9997214790642643
+    },
+    "4": {
+      "omega21_over_g": 4.0,
+      "B1_over_B0": 0.5,
+      "max_probability_difference_first_resonant_cycle": 0.1253040026621398,
+      "P2_at_pi_pulse_time": 0.9818186687000041
+    }
+  },
+  "checks": [
+    {
+      "name": "rotating_complex_amplitudes_delta_0.0",
+      "residual": 4.083350663809719e-10,
+      "tolerance": 2e-08,
+      "passed": true
+    },
+    {
+      "name": "schrodinger_norm_delta_0.0",
+      "residual": 5.3859139370615594e-12,
+      "tolerance": 2e-09,
+      "passed": true
+    },
+    {
+      "name": "drive_energy_delta_0.0",
+      "residual": 5.858000574485451e-11,
+      "tolerance": 2e-08,
+      "passed": true
+    },
+    {
+      "name": "rotating_complex_amplitudes_delta_-2.0",
+      "residual": 3.7407856549385126e-10,
+      "tolerance": 2e-08,
+      "passed": true
+    },
+    {
+      "name": "schrodinger_norm_delta_-2.0",
+      "residual": 4.6876946768747985e-12,
+      "tolerance": 2e-09,
+      "passed": true
+    },
+    {
+      "name": "drive_energy_delta_-2.0",
+      "residual": 1.8114509892086517e-11,
+      "tolerance": 2e-08,
+      "passed": true
+    },
+    {
+      "name": "rotating_complex_amplitudes_delta_2.0",
+      "residual": 2.18992370520747e-10,
+      "tolerance": 2e-08,
+      "passed": true
+    },
+    {
+      "name": "schrodinger_norm_delta_2.0",
+      "residual": 6.39832631321724e-12,
+      "tolerance": 2e-09,
+      "passed": true
+    },
+    {
+      "name": "drive_energy_delta_2.0",
+      "residual": 9.42780298274215e-11,
+      "tolerance": 2e-08,
+      "passed": true
+    },
+    {
+      "name": "rotating_complex_amplitudes_delta_4.0",
+      "residual": 1.520350391457868e-10,
+      "tolerance": 2e-08,
+      "passed": true
+    },
+    {
+      "name": "schrodinger_norm_delta_4.0",
+      "residual": 7.702616322546874e-12,
+      "tolerance": 2e-09,
+      "passed": true
+    },
+    {
+      "name": "drive_energy_delta_4.0",
+      "residual": 6.952405318116917e-11,
+      "tolerance": 2e-08,
+      "passed": true
+    },
+    {
+      "name": "arbitrary_complex_initial_amplitudes",
+      "residual": 2.1577200127183632e-10,
+      "tolerance": 2e-08,
+      "passed": true
+    },
+    {
+      "name": "first_maximum_delta_0.0",
+      "residual": 0.0,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "first_maximum_delta_2.0",
+      "residual": 0.0,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "first_maximum_delta_-2.0",
+      "residual": 0.0,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "first_maximum_delta_4.0",
+      "residual": 2.7755575615628914e-17,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "on_resonance_return_period",
+      "residual": 1.2246467991473532e-16,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "half_height_two_sides",
+      "residual": 0.0,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "excited_to_ground_pi_pulse",
+      "residual": 0.0,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "fixed_pulse_below_envelope",
+      "residual": 0.0,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "linear_norm_w0_over_g_30.0",
+      "residual": 4.68114436102951e-12,
+      "tolerance": 2e-08,
+      "passed": true
+    },
+    {
+      "name": "linear_step_halving_w0_over_g_30.0",
+      "residual": 2.575890060046313e-09,
+      "tolerance": 2e-08,
+      "passed": true
+    },
+    {
+      "name": "linear_norm_w0_over_g_4.0",
+      "residual": 9.325873406851315e-15,
+      "tolerance": 2e-08,
+      "passed": true
+    },
+    {
+      "name": "linear_step_halving_w0_over_g_4.0",
+      "residual": 9.887507999813158e-13,
+      "tolerance": 2e-08,
+      "passed": true
+    }
+  ],
+  "check_count": 25,
+  "all_passed": true
+}

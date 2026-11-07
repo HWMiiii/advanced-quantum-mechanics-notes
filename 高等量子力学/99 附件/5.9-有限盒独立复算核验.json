@@ -1,0 +1,220 @@
+{
+  "units": "y=(x+a)/a, energy unit hbar^2/(2ma^2), G=6,n=1",
+  "T": [
+    0.0,
+    0.1,
+    0.5,
+    1.0,
+    2.0,
+    4.0,
+    6.0,
+    8.0,
+    12.0
+  ],
+  "runs": {
+    "900.37_55": {
+      "far_wall": 900.37,
+      "max_wave_number": 55,
+      "overlap_weight": 0.9999873345635331,
+      "wall_residual": 1.3447021741690545e-11,
+      "prob_in_well": [
+        0.9999805242141326,
+        0.9119086984544169,
+        0.475353730975602,
+        0.2194482646513581,
+        0.04684146658305413,
+        0.002090476190976443,
+        9.611589411763061e-05,
+        4.24328882161089e-06,
+        1.4568938853909038e-08
+      ],
+      "return_prob": [
+        0.999974669287484,
+        0.846453216570909,
+        0.457119123935282,
+        0.20965349349700602,
+        0.04465866686255028,
+        0.0019951270691046415,
+        9.160766824680754e-05,
+        4.0412786440997184e-06,
+        1.2844194498734327e-08
+      ]
+    },
+    "1350.29_75": {
+      "far_wall": 1350.29,
+      "max_wave_number": 75,
+      "overlap_weight": 0.999995107929479,
+      "wall_residual": 3.2886088447161554e-11,
+      "prob_in_well": [
+        0.9999927351516797,
+        0.9119087181814957,
+        0.4753537269418623,
+        0.21944825934946155,
+        0.04684146498882783,
+        0.002090476413557256,
+        9.611594060456128e-05,
+        4.243287153036089e-06,
+        1.4567599156640704e-08
+      ],
+      "return_prob": [
+        0.9999902158828985,
+        0.8464532190912152,
+        0.4571191093511713,
+        0.20965348421287594,
+        0.04465866427799131,
+        0.0019951272731156687,
+        9.160768632497175e-05,
+        4.0412687238123985e-06,
+        1.2844566042673347e-08
+      ]
+    },
+    "1500.47_95": {
+      "far_wall": 1500.47,
+      "max_wave_number": 95,
+      "overlap_weight": 0.9999975177572878,
+      "wall_residual": 3.84465868222861e-11,
+      "prob_in_well": [
+        0.9999962770912881,
+        0.9119087273289973,
+        0.47535372311185564,
+        0.2194482630521733,
+        0.04684146572486438,
+        0.0020904763136294973,
+        9.611589287337585e-05,
+        4.243279587568725e-06,
+        1.4567191609632716e-08
+      ],
+      "return_prob": [
+        0.9999950355207263,
+        0.8464532114963234,
+        0.4571191093196432,
+        0.20965348452871674,
+        0.04465866439713551,
+        0.0019951272847873332,
+        9.160768671779792e-05,
+        4.041268837922044e-06,
+        1.2844598492549958e-08
+      ]
+    }
+  },
+  "pole_q": [
+    2.7579383212949247,
+    -0.14043273246623328
+  ],
+  "pole_q_squared": [
+    7.5865024317191345,
+    -0.7746096288655654
+  ],
+  "pole_tau_dimensionless": 0.6454864248618523,
+  "illustration_2p_width_eV": 4.125867105238415e-07,
+  "checks": [
+    {
+      "name": "normalization 900.37_55",
+      "max_abs_error": 1.266543646694096e-05,
+      "tolerance": 3e-05,
+      "passed": true
+    },
+    {
+      "name": "distant wall 900.37_55",
+      "max_abs_error": 1.3447021741690545e-11,
+      "tolerance": 2e-10,
+      "passed": true
+    },
+    {
+      "name": "projection inequality 900.37_55",
+      "max_abs_error": 0.0,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "normalization 1350.29_75",
+      "max_abs_error": 4.8920705210120374e-06,
+      "tolerance": 3e-05,
+      "passed": true
+    },
+    {
+      "name": "distant wall 1350.29_75",
+      "max_abs_error": 3.2886088447161554e-11,
+      "tolerance": 2e-10,
+      "passed": true
+    },
+    {
+      "name": "projection inequality 1350.29_75",
+      "max_abs_error": 0.0,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "normalization 1500.47_95",
+      "max_abs_error": 2.482242712154026e-06,
+      "tolerance": 3e-05,
+      "passed": true
+    },
+    {
+      "name": "distant wall 1500.47_95",
+      "max_abs_error": 3.84465868222861e-11,
+      "tolerance": 2e-10,
+      "passed": true
+    },
+    {
+      "name": "projection inequality 1500.47_95",
+      "max_abs_error": 0.0,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "refinement at T=0.1",
+      "max_abs_error": 1.0031159227787212e-08,
+      "tolerance": 0.0003,
+      "passed": true
+    },
+    {
+      "name": "refinement at T=0.5",
+      "max_abs_error": 8.057171867917865e-09,
+      "tolerance": 0.0003,
+      "passed": true
+    },
+    {
+      "name": "refinement at T=1",
+      "max_abs_error": 1.687282321957113e-08,
+      "tolerance": 0.0003,
+      "passed": true
+    },
+    {
+      "name": "refinement at T=2",
+      "max_abs_error": 1.571335439150172e-08,
+      "tolerance": 0.0003,
+      "passed": true
+    },
+    {
+      "name": "refinement at T=4",
+      "max_abs_error": 4.780143076698677e-08,
+      "tolerance": 0.0003,
+      "passed": true
+    },
+    {
+      "name": "refinement at T=6",
+      "max_abs_error": 4.966003436595281e-07,
+      "tolerance": 0.0003,
+      "passed": true
+    },
+    {
+      "name": "refinement at T=8",
+      "max_abs_error": 1.782929266676012e-06,
+      "tolerance": 0.0003,
+      "passed": true
+    },
+    {
+      "name": "refinement at T=12",
+      "max_abs_error": 2.7977047251785695e-05,
+      "tolerance": 0.0003,
+      "passed": true
+    },
+    {
+      "name": "outgoing root",
+      "max_abs_error": 1.6992216372873033e-15,
+      "tolerance": 1e-12,
+      "passed": true
+    }
+  ]
+}

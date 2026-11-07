@@ -1,0 +1,188 @@
+{
+  "model": "single-electron local potential; illustrative Lorentzian and oscillator models",
+  "values": {
+    "radial_in_a0": 1.2902662019598634,
+    "length_in_a0": 0.7449355390278094,
+    "f_2p_1s": 0.4161967179799897,
+    "k_a0": 0.002736507211624284,
+    "vacuum_wavelength_nm_fixed_nucleus": 121.50227341117792
+  },
+  "checks": [
+    {
+      "name": "1s radial normalization",
+      "computed": 0.9999999999989334,
+      "expected": 1.0,
+      "abs_error": 1.0665912597573879e-12,
+      "tolerance": 1e-10,
+      "passed": true
+    },
+    {
+      "name": "2p radial normalization",
+      "computed": 1.0000000000000002,
+      "expected": 1.0,
+      "abs_error": 2.220446049250313e-16,
+      "tolerance": 1e-10,
+      "passed": true
+    },
+    {
+      "name": "hydrogen radial dipole",
+      "computed": 1.2902662019598634,
+      "expected": 1.2902662019598634,
+      "abs_error": 0.0,
+      "tolerance": 1e-10,
+      "passed": true
+    },
+    {
+      "name": "dipole angular integral with polar axis along x",
+      "computed": 0.5773502691896306,
+      "expected": 0.5773502691896258,
+      "abs_error": 4.773959005888173e-15,
+      "tolerance": 2e-14,
+      "passed": true
+    },
+    {
+      "name": "momentum length equivalence in atomic units",
+      "computed": 0.27935082713546,
+      "expected": 0.2793508271354285,
+      "abs_error": 3.147482274812319e-14,
+      "tolerance": 2e-12,
+      "passed": true
+    },
+    {
+      "name": "hydrogen first-line oscillator strength",
+      "computed": 0.4161967179799897,
+      "expected": 0.4161967179799827,
+      "abs_error": 6.994405055138486e-15,
+      "tolerance": 3e-13,
+      "passed": true
+    },
+    {
+      "name": "signed oscillator strengths from level 0",
+      "computed": 1.0,
+      "expected": 1.0,
+      "abs_error": 0.0,
+      "tolerance": 1e-14,
+      "passed": true
+    },
+    {
+      "name": "signed oscillator strengths from level 1",
+      "computed": 1.0,
+      "expected": 1.0,
+      "abs_error": 0.0,
+      "tolerance": 1e-14,
+      "passed": true
+    },
+    {
+      "name": "signed oscillator strengths from level 3",
+      "computed": 1.0,
+      "expected": 1.0,
+      "abs_error": 0.0,
+      "tolerance": 1e-14,
+      "passed": true
+    },
+    {
+      "name": "signed oscillator strengths from level 8",
+      "computed": 1.0,
+      "expected": 1.0,
+      "abs_error": 0.0,
+      "tolerance": 1e-14,
+      "passed": true
+    },
+    {
+      "name": "Lorentzian FWHM gamma=0.5",
+      "computed": 0.5,
+      "expected": 0.5,
+      "abs_error": 0.0,
+      "tolerance": 1e-13,
+      "passed": true
+    },
+    {
+      "name": "Lorentzian area gamma=0.5",
+      "computed": 0.999999999999788,
+      "expected": 1.0,
+      "abs_error": 2.120525977034049e-13,
+      "tolerance": 5e-12,
+      "passed": true
+    },
+    {
+      "name": "Lorentzian FWHM gamma=1",
+      "computed": 0.5,
+      "expected": 0.5,
+      "abs_error": 0.0,
+      "tolerance": 1e-13,
+      "passed": true
+    },
+    {
+      "name": "Lorentzian area gamma=1",
+      "computed": 0.9999999999995758,
+      "expected": 1.0,
+      "abs_error": 4.242162177092723e-13,
+      "tolerance": 5e-12,
+      "passed": true
+    },
+    {
+      "name": "Lorentzian FWHM gamma=2",
+      "computed": 0.5,
+      "expected": 0.5,
+      "abs_error": 0.0,
+      "tolerance": 1e-13,
+      "passed": true
+    },
+    {
+      "name": "Lorentzian area gamma=2",
+      "computed": 0.9999999999991519,
+      "expected": 1.0,
+      "abs_error": 8.480993685111571e-13,
+      "tolerance": 5e-12,
+      "passed": true
+    },
+    {
+      "name": "finite-k oscillator probability ratio k*b=0.01",
+      "computed": 0.999950001249979,
+      "expected": 0.9999500012499791,
+      "abs_error": 1.1102230246251565e-16,
+      "tolerance": 3e-14,
+      "passed": true
+    },
+    {
+      "name": "finite-k oscillator probability ratio k*b=0.1",
+      "computed": 0.9950124791926824,
+      "expected": 0.9950124791926823,
+      "abs_error": 1.1102230246251565e-16,
+      "tolerance": 3e-14,
+      "passed": true
+    },
+    {
+      "name": "finite-k oscillator probability ratio k*b=0.3",
+      "computed": 0.9559974818330998,
+      "expected": 0.9559974818331,
+      "abs_error": 1.1102230246251565e-16,
+      "tolerance": 3e-14,
+      "passed": true
+    },
+    {
+      "name": "finite-k oscillator probability ratio k*b=1",
+      "computed": 0.6065306597126336,
+      "expected": 0.6065306597126334,
+      "abs_error": 2.220446049250313e-16,
+      "tolerance": 3e-14,
+      "passed": true
+    },
+    {
+      "name": "finite-k oscillator probability ratio k*b=2",
+      "computed": 0.1353352832366127,
+      "expected": 0.1353352832366127,
+      "abs_error": 0.0,
+      "tolerance": 3e-14,
+      "passed": true
+    },
+    {
+      "name": "E sign for cos(kz-omega t) in scaled units",
+      "computed": -0.5728674600913308,
+      "expected": -0.5728674601004813,
+      "abs_error": 9.15045816896054e-12,
+      "tolerance": 3e-11,
+      "passed": true
+    }
+  ]
+}

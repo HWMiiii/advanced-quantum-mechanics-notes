@@ -1,0 +1,27 @@
+{
+  "status": "PASS",
+  "active_rotation_convention": "D=cos(phi/2)I-i sin(phi/2)n.sigma",
+  "random_trials_per_identity": 50,
+  "maximum_residuals": {
+    "pauli_product": 8.881784197001252e-16,
+    "unitarity": 4.440923888782487e-16,
+    "determinant": 3.342213888644167e-16,
+    "bloch_rotation": 5.551115123125783e-16,
+    "interference_probability": 3.3306690738754696e-16,
+    "cayley": 3.376611507232129e-16,
+    "euler": 3.1401849173675503e-16,
+    "direction_eigenstate": 2.2887833992611187e-16
+  },
+  "example_axis": [
+    0.3333333333333333,
+    0.6666666666666666,
+    0.6666666666666666
+  ],
+  "example_angle": "pi/3",
+  "example_probabilities": [
+    0.8611111111111112,
+    0.13888888888888884
+  ],
+  "interferometer": "ideal balanced coherent arms; B arm rotated; P at one output",
+  "unpolarized_delta_pi_over_2": "constant probability 1/2; no field fringe at this phase bias"
+}

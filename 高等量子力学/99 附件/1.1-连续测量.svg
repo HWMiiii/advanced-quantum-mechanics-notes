@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 610" role="img" aria-labelledby="title desc">
+  <title id="title">已制备 z+ 原子束的三种连续测量</title>
+  <desc id="desc">相同 z 方向重复测量，正结果占百分之百。改测 x 得到正负各百分之五十。只保留 x 正出口后再测 z，最终两支各占初始已制备束流的百分之二十五。</desc>
+  <rect width="1100" height="610" rx="16" fill="#ffffff"/>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#64748b"/></marker>
+  </defs>
+  <style>
+    text{font-family:"Microsoft YaHei","Noto Sans CJK SC",sans-serif;fill:#182536;font-size:21px}
+    .small{font-size:18px;fill:#536275}
+    .heading{font-size:26px;font-weight:600}
+    .box{fill:#f1f5f9;stroke:#64748b;stroke-width:1.5}
+    .wire{fill:none;stroke:#64748b;stroke-width:2;marker-end:url(#arrow)}
+    .plus{fill:#1865b7}
+    .minus{fill:#a65817}
+  </style>
+  <text class="heading" x="40" y="46">连续测量：中间筛选改变了保留下来的状态</text>
+  <text class="small" x="40" y="78">统一分母：第一次已制备的 z+ 束流 = 100%。线路只表示测量逻辑。</text>
+  <line x1="40" y1="105" x2="1060" y2="105" stroke="#dbe3ec"/>
+  <text x="40" y="145">A · 重复测 z</text>
+  <text x="56" y="198">z+ 入射</text>
+  <path class="wire" d="M160 190 H280"/>
+  <rect class="box" x="290" y="160" width="130" height="60" rx="6"/>
+  <text x="327" y="198">SGz</text>
+  <path class="wire" d="M420 190 L580 156 H730"/>
+  <path d="M420 190 L580 226 H730" fill="none" stroke="#c3ccd7" stroke-width="2" stroke-dasharray="5 5"/>
+  <text class="plus" x="758" y="164">z+：100%</text>
+  <text class="small" x="758" y="233">z−：0%</text>
+  <line x1="40" y1="260" x2="1060" y2="260" stroke="#dbe3ec"/>
+  <text x="40" y="300">B · 改测 x</text>
+  <text x="56" y="354">z+ 入射</text>
+  <path class="wire" d="M160 346 H280"/>
+  <rect class="box" x="290" y="316" width="130" height="60" rx="6"/>
+  <text x="327" y="354">SGx</text>
+  <path class="wire" d="M420 346 L580 312 H730"/>
+  <path class="wire" d="M420 346 L580 382 H730"/>
+  <text class="plus" x="758" y="320">x+：50%</text>
+  <text class="minus" x="758" y="390">x−：50%</text>
+  <line x1="40" y1="416" x2="1060" y2="416" stroke="#dbe3ec"/>
+  <text x="40" y="456">C · 筛选 x+，再测 z</text>
+  <text x="56" y="510">z+ 入射</text>
+  <path class="wire" d="M160 502 H205"/>
+  <rect class="box" x="215" y="472" width="110" height="60" rx="6"/>
+  <text x="241" y="510">SGx</text>
+  <path class="wire" d="M325 502 L395 476 H615"/>
+  <text class="small" x="418" y="466">保留 x+：50%</text>
+  <path d="M325 502 L395 557 H470" fill="none" stroke="#64748b" stroke-width="2"/>
+  <rect x="472" y="544" width="8" height="28" fill="#64748b"/>
+  <text class="small" x="492" y="565">挡住 x−：50%</text>
+  <rect class="box" x="625" y="447" width="110" height="60" rx="6"/>
+  <text x="651" y="485">SGz</text>
+  <path class="wire" d="M735 477 L808 452 H877"/>
+  <path class="wire" d="M735 477 L808 517 H877"/>
+  <text class="plus" x="894" y="460">z+：25%</text>
+  <text class="minus" x="894" y="525">z−：25%</text>
+  <text class="small" x="746" y="590">对最后一台的入射束：两支各占 50%</text>
+</svg>

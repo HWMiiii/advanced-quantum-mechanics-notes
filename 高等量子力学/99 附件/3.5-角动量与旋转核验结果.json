@@ -1,0 +1,177 @@
+{
+  "status": "PASS",
+  "section": "3.5",
+  "seed": 20261023,
+  "hbar_in_checks": 1,
+  "checks": {
+    "commutators": {
+      "max_abs_error": 3.9968028886505635e-15,
+      "tolerance": 1e-11,
+      "passed": true
+    },
+    "casimir": {
+      "max_abs_error": 3.552713678800501e-15,
+      "tolerance": 1e-11,
+      "passed": true
+    },
+    "ladder_products": {
+      "max_abs_error": 3.552713678800501e-15,
+      "tolerance": 1e-11,
+      "passed": true
+    },
+    "component_spectra": {
+      "max_abs_error": 1.7763568394002505e-15,
+      "tolerance": 1e-11,
+      "passed": true
+    },
+    "ladder_endpoints": {
+      "max_abs_error": 0.0,
+      "tolerance": 1e-11,
+      "passed": true
+    },
+    "transverse_second_moments": {
+      "max_abs_error": 1.7763568394002505e-15,
+      "tolerance": 1e-11,
+      "passed": true
+    },
+    "two_pi_rotation": {
+      "max_abs_error": 3.1618418290582994e-15,
+      "tolerance": 1e-11,
+      "passed": true
+    },
+    "euler_phase_indices": {
+      "max_abs_error": 2.220446049250313e-16,
+      "tolerance": 1e-11,
+      "passed": true
+    },
+    "rotation_unitarity": {
+      "max_abs_error": 2.4424906541753444e-15,
+      "tolerance": 1e-11,
+      "passed": true
+    },
+    "rotation_covariance": {
+      "max_abs_error": 1.1744633401729042e-14,
+      "tolerance": 1e-11,
+      "passed": true
+    },
+    "probability_normalization": {
+      "max_abs_error": 2.4424906541753444e-15,
+      "tolerance": 1e-11,
+      "passed": true
+    },
+    "exercise_3_37a_column_first_moment": {
+      "max_abs_error": 5.551115123125783e-15,
+      "tolerance": 1e-11,
+      "passed": true
+    },
+    "exercise_3_37b_row_second_moment": {
+      "max_abs_error": 2.4868995751603507e-14,
+      "tolerance": 1e-11,
+      "passed": true
+    },
+    "density_rotation_purity": {
+      "max_abs_error": 1.2769511604448132e-15,
+      "tolerance": 1e-11,
+      "passed": true
+    },
+    "exercise_3_17_second_order": {
+      "max_abs_error": 3.9968028886505635e-15,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    "exercise_3_6_cubic_zero": {
+      "max_abs_error": 1.1102230246251565e-16,
+      "tolerance": 1e-11,
+      "passed": true
+    },
+    "exercise_3_20_eigenvectors": {
+      "max_abs_error": 1.1102230246251565e-16,
+      "tolerance": 1e-11,
+      "passed": true
+    },
+    "exercise_3_20_orthonormality": {
+      "max_abs_error": 2.220446049250313e-16,
+      "tolerance": 1e-11,
+      "passed": true
+    },
+    "exercise_3_38_polynomial": {
+      "max_abs_error": 1.9793560323180897e-15,
+      "tolerance": 1e-11,
+      "passed": true
+    },
+    "exercise_3_38_full_d1": {
+      "max_abs_error": 1.8770774757754418e-15,
+      "tolerance": 1e-11,
+      "passed": true
+    },
+    "exercise_3_26_five_amplitudes": {
+      "max_abs_error": 1.3658554402488066e-15,
+      "tolerance": 1e-11,
+      "passed": true
+    },
+    "exercise_3_26_five_probabilities": {
+      "max_abs_error": 5.551115123125783e-16,
+      "tolerance": 1e-11,
+      "passed": true
+    },
+    "exercise_3_46_energy_spectrum": {
+      "max_abs_error": 7.105427357601002e-15,
+      "tolerance": 1e-11,
+      "passed": true
+    },
+    "exercise_3_46_all_eigenvectors": {
+      "max_abs_error": 1.7763568394002505e-15,
+      "tolerance": 1e-11,
+      "passed": true
+    },
+    "exercise_3_46_orthonormality": {
+      "max_abs_error": 2.220446049250313e-16,
+      "tolerance": 1e-11,
+      "passed": true
+    },
+    "exercise_3_46_zero_boundary": {
+      "max_abs_error": 0.0,
+      "tolerance": 1e-11,
+      "passed": true
+    },
+    "exercise_3_46_scanned_prefactor_rewriting": {
+      "max_abs_error": 8.881784197001252e-16,
+      "tolerance": 1e-11,
+      "passed": true
+    },
+    "exercise_3_46_potential_derivative_spectrum": {
+      "max_abs_error": 2.220446049250313e-15,
+      "tolerance": 1e-11,
+      "passed": true
+    }
+  },
+  "examples": {
+    "j_values": [
+      0,
+      0.5,
+      1,
+      1.5,
+      2,
+      2.5,
+      3,
+      5
+    ],
+    "random_euler_tests_per_j": 20,
+    "exercise_3_26_beta_samples": 121,
+    "exercise_3_46_A_B_samples": 105,
+    "exercise_3_46_scanned_prefactor": "eQ / [2s(s-1) hbar^2]",
+    "j1_beta_pi_over_2_probabilities": [
+      0.25,
+      0.5,
+      0.25
+    ],
+    "j2_beta_pi_over_2_probabilities_by_m_2_1_0_minus1_minus2": [
+      0.375,
+      0,
+      0.25,
+      0,
+      0.375
+    ]
+  },
+  "meaning": "仅为解析公式的独立数值核验；不替代证明或学习者的独立作答。"
+}

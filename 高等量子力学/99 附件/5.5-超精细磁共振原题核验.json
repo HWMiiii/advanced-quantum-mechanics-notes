@@ -1,0 +1,137 @@
+{
+  "source": "5.39 PDF383—384，5.40 PDF384；独立积态数值矩阵，默认 hbar=1。",
+  "sample_b_over_Delta_0p1": [
+    {
+      "exercise": "5.39",
+      "b_over_Delta": 0.09999999999999987,
+      "E_Tplus": 0.25,
+      "E_Tminus": 0.25,
+      "E_T0": 0.2599019513592784,
+      "E_S": -0.7599019513592784,
+      "angular_frequency_times_hbar_over_Delta": 1.0198039027185568,
+      "longitudinal_spin_element_over_hbar": 0.9805806756909202
+    },
+    {
+      "exercise": "5.40",
+      "b_over_Delta": 0.09999999999999987,
+      "E_Tplus": 0.29999999999999993,
+      "E_Tminus": 0.20000000000000007,
+      "E_T0": 0.2524937810560445,
+      "E_S": -0.7524937810560445,
+      "angular_frequency_times_hbar_over_Delta": 1.004987562112089,
+      "longitudinal_spin_element_over_hbar": 0.4975185951049946
+    }
+  ],
+  "count": 18,
+  "passed": true,
+  "checks": [
+    {
+      "test": "5.39 三重态一阶投影",
+      "residual": 2.2371143170757382e-17,
+      "tolerance": 2e-12,
+      "passed": true
+    },
+    {
+      "test": "5.39 零场态连接系数",
+      "residual": 2.220446049250313e-16,
+      "tolerance": 2e-12,
+      "passed": true
+    },
+    {
+      "test": "5.39 完整4维核验 energy",
+      "residual": 2.220446049250313e-16,
+      "tolerance": 2e-12,
+      "passed": true
+    },
+    {
+      "test": "5.39 完整4维核验 eigenvector",
+      "residual": 1.942890293094024e-16,
+      "tolerance": 2e-12,
+      "passed": true
+    },
+    {
+      "test": "5.39 完整4维核验 orthonormality",
+      "residual": 2.220446049250313e-16,
+      "tolerance": 2e-12,
+      "passed": true
+    },
+    {
+      "test": "5.39 完整4维核验 longitudinal",
+      "residual": 2.220446049250313e-16,
+      "tolerance": 2e-12,
+      "passed": true
+    },
+    {
+      "test": "5.39 完整4维核验 transverse",
+      "residual": 0.0,
+      "tolerance": 2e-12,
+      "passed": true
+    },
+    {
+      "test": "5.39 二阶能量系数",
+      "residual": 6.07747097092215e-09,
+      "tolerance": 6e-08,
+      "passed": true
+    },
+    {
+      "test": "5.39 一阶态系数",
+      "residual": 1.0606601374973934e-08,
+      "tolerance": 3e-08,
+      "passed": true
+    },
+    {
+      "test": "5.40 三重态一阶投影",
+      "residual": 1.1185571585378691e-17,
+      "tolerance": 2e-12,
+      "passed": true
+    },
+    {
+      "test": "5.40 零场态连接系数",
+      "residual": 1.1102230246251565e-16,
+      "tolerance": 2e-12,
+      "passed": true
+    },
+    {
+      "test": "5.40 完整4维核验 energy",
+      "residual": 1.1102230246251565e-16,
+      "tolerance": 2e-12,
+      "passed": true
+    },
+    {
+      "test": "5.40 完整4维核验 eigenvector",
+      "residual": 1.1102230246251565e-16,
+      "tolerance": 2e-12,
+      "passed": true
+    },
+    {
+      "test": "5.40 完整4维核验 orthonormality",
+      "residual": 3.3306690738754696e-16,
+      "tolerance": 2e-12,
+      "passed": true
+    },
+    {
+      "test": "5.40 完整4维核验 longitudinal",
+      "residual": 1.6653345369377348e-16,
+      "tolerance": 2e-12,
+      "passed": true
+    },
+    {
+      "test": "5.40 完整4维核验 transverse",
+      "residual": 0.0,
+      "tolerance": 2e-12,
+      "passed": true
+    },
+    {
+      "test": "5.40 二阶能量系数",
+      "residual": 1.5193677427305374e-09,
+      "tolerance": 6e-08,
+      "passed": true
+    },
+    {
+      "test": "5.40 一阶态系数",
+      "residual": 1.3259267017673437e-09,
+      "tolerance": 3e-08,
+      "passed": true
+    }
+  ]
+}

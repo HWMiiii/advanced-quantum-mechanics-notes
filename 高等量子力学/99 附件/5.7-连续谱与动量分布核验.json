@@ -1,0 +1,159 @@
+{
+  "source": "5.45 PDF384—385；5.46/5.48 PDF385。无量纲数值：a0=hbar=m=1。",
+  "checks": [
+    {
+      "test": "5.48 r、theta独立积分，q=0",
+      "residual": 6.772360450213455e-15,
+      "tolerance": 1e-09,
+      "passed": true
+    },
+    {
+      "test": "5.48 r、theta独立积分，q=0.3",
+      "residual": 7.438494579830468e-15,
+      "tolerance": 1e-09,
+      "passed": true
+    },
+    {
+      "test": "5.48 r、theta独立积分，q=0.8",
+      "residual": 7.271961039994756e-15,
+      "tolerance": 1e-09,
+      "passed": true
+    },
+    {
+      "test": "5.48 r、theta独立积分，q=1.5",
+      "residual": 5.079271755857571e-15,
+      "tolerance": 1e-09,
+      "passed": true
+    },
+    {
+      "test": "5.48 r、theta独立积分，q=2.5",
+      "residual": 2.9420926416229693e-15,
+      "tolerance": 1e-09,
+      "passed": true
+    },
+    {
+      "test": "5.48 r、theta独立积分，q=3.0",
+      "residual": 1.987993281521743e-15,
+      "tolerance": 1e-09,
+      "passed": true
+    },
+    {
+      "test": "5.48 全动量空间概率归一",
+      "residual": 7.327471962526033e-15,
+      "tolerance": 1e-09,
+      "passed": true
+    },
+    {
+      "test": "5.45 入射轴固定的三维积分 theta=0",
+      "residual": 4.163336673571329e-15,
+      "tolerance": 1e-09,
+      "passed": true
+    },
+    {
+      "test": "5.45 入射轴固定的三维积分 theta=45",
+      "residual": 3.663789146820056e-15,
+      "tolerance": 1e-09,
+      "passed": true
+    },
+    {
+      "test": "5.45 入射轴固定的三维积分 theta=90",
+      "residual": 3.1086355046884342e-15,
+      "tolerance": 1e-09,
+      "passed": true
+    },
+    {
+      "test": "5.45 入射轴固定的三维积分 theta=135",
+      "residual": 3.302914421467826e-15,
+      "tolerance": 1e-09,
+      "passed": true
+    },
+    {
+      "test": "5.45 入射轴固定的三维积分 theta=180",
+      "residual": 3.289036628573719e-15,
+      "tolerance": 1e-09,
+      "passed": true
+    },
+    {
+      "test": "5.45 能壳角分布积分",
+      "residual": 3.219646771412954e-15,
+      "tolerance": 1e-09,
+      "passed": true
+    },
+    {
+      "test": "5.45 L=50 箱规因子抵消",
+      "residual": 6.938893903907228e-18,
+      "tolerance": 1e-09,
+      "passed": true
+    },
+    {
+      "test": "5.45 L=100 箱规因子抵消",
+      "residual": 6.938893903907228e-18,
+      "tolerance": 1e-09,
+      "passed": true
+    },
+    {
+      "test": "5.46 n=10 局部能级计数",
+      "residual": 0.0,
+      "tolerance": 1e-09,
+      "passed": true
+    },
+    {
+      "test": "5.46 n=100 局部能级计数",
+      "residual": 1.1102230246251565e-16,
+      "tolerance": 1e-09,
+      "passed": true
+    },
+    {
+      "test": "5.46 n=1000 局部能级计数",
+      "residual": 1.1102230246251565e-16,
+      "tolerance": 1e-09,
+      "passed": true
+    }
+  ],
+  "passed": true,
+  "count": 18,
+  "radial_normalization": 0.9999999999999927,
+  "figure_parameters": {
+    "u": 1.0,
+    "scalar_v": 0.3,
+    "photon_v": 0.0072973525205055605
+  },
+  "angular_samples": [
+    {
+      "degrees": 0,
+      "p_minus_k": 0.7,
+      "analytic_delta_normalized_overlap": 0.40552962306072077,
+      "direct_overlap_real": 0.4055296230607166,
+      "direct_overlap_imag": -1.6607284111574946e-18
+    },
+    {
+      "degrees": 45,
+      "p_minus_k": 0.815926425168392,
+      "analytic_delta_normalized_overlap": 0.32447617437252,
+      "direct_overlap_real": 0.32447617437251636,
+      "direct_overlap_imag": 1.973757723609991e-17
+    },
+    {
+      "degrees": 90,
+      "p_minus_k": 1.0440306508910548,
+      "analytic_delta_normalized_overlap": 0.20611165407319115,
+      "direct_overlap_real": 0.20611165407318804,
+      "direct_overlap_imag": 8.283239228883815e-18
+    },
+    {
+      "degrees": 135,
+      "p_minus_k": 1.2305543745450376,
+      "analytic_delta_normalized_overlap": 0.14242077442299872,
+      "direct_overlap_real": 0.14242077442299542,
+      "direct_overlap_imag": 2.469524870130211e-18
+    },
+    {
+      "degrees": 180,
+      "p_minus_k": 1.3,
+      "analytic_delta_normalized_overlap": 0.12442010422148753,
+      "direct_overlap_real": 0.12442010422148424,
+      "direct_overlap_imag": -2.4575335012855764e-18
+    }
+  ],
+  "angular_integral": 0.875904472077522
+}

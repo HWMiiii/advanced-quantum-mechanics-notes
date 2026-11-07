@@ -1,0 +1,300 @@
+{
+  "source": "原题5.19、5.20：PDF379／印刷357；正文关联PDF321／印刷299",
+  "lamb_samples": [
+    {
+      "g_over_Delta": 0.01,
+      "E_low_over_Delta": -9.99900019994504e-05,
+      "E_high_over_Delta": 1.0000999900019996,
+      "s_branch_shift": 9.999000199956143e-05,
+      "p_branch_shift": -9.99900019994504e-05,
+      "weak_shift_magnitude": 0.0001
+    },
+    {
+      "g_over_Delta": 0.1,
+      "E_low_over_Delta": -0.009901951359278516,
+      "E_high_over_Delta": 1.0099019513592786,
+      "s_branch_shift": 0.009901951359278627,
+      "p_branch_shift": -0.009901951359278516,
+      "weak_shift_magnitude": 0.010000000000000002
+    },
+    {
+      "g_over_Delta": 1,
+      "E_low_over_Delta": -0.6180339887498949,
+      "E_high_over_Delta": 1.618033988749895,
+      "s_branch_shift": 0.6180339887498949,
+      "p_branch_shift": -0.6180339887498949,
+      "weak_shift_magnitude": 1
+    },
+    {
+      "g_over_Delta": 10,
+      "E_low_over_Delta": -9.512492197250394,
+      "E_high_over_Delta": 10.512492197250394,
+      "s_branch_shift": 9.512492197250394,
+      "p_branch_shift": -9.512492197250394,
+      "weak_shift_magnitude": 100
+    }
+  ],
+  "n3": {
+    "radial_z_s_p": -7.348469228350391,
+    "radial_z_p_d_m0": -5.196152422707262,
+    "radial_z_p_d_m1": -4.5000000000005445,
+    "zero_m0_gauge_t_exact": "1485/2",
+    "zero_m0_l1_E2_exact": "-891/20",
+    "zero_m0_l3_E2_exact": "-4131/5",
+    "zero_m0_E2_exact": "-3483/4",
+    "zero_m2_E2_exact": "-1377/2",
+    "zero_m0_E2_quadrature": -870.7500000001044,
+    "zero_m2_E2_quadrature": -688.5000000000823
+  },
+  "checks": [
+    {
+      "name": "5.19 2s—2p0 z矩阵元=-3 a0",
+      "residual": 3.814726312612038e-13,
+      "tolerance": 1e-09,
+      "passed": true
+    },
+    {
+      "name": "5.19 自旋角函数系数给sqrt3",
+      "residual": 2.204902926905561e-13,
+      "tolerance": 1e-09,
+      "passed": true
+    },
+    {
+      "name": "5.19 时间反演平方=-I",
+      "residual": 0.0,
+      "tolerance": 1e-09,
+      "passed": true
+    },
+    {
+      "name": "5.19 g/Delta=0.01 双重精确谱",
+      "residual": 4.9737774662772516e-17,
+      "tolerance": 1e-09,
+      "passed": true
+    },
+    {
+      "name": "5.19 g/Delta=0.01 时间反演对称",
+      "residual": 0.0,
+      "tolerance": 1e-09,
+      "passed": true
+    },
+    {
+      "name": "5.19 g/Delta=0.01 Kramers伙伴同能",
+      "residual": 1.734723475976807e-18,
+      "tolerance": 1e-09,
+      "passed": true
+    },
+    {
+      "name": "5.19 g/Delta=0.01 Kramers伙伴正交",
+      "residual": 0.0,
+      "tolerance": 1e-09,
+      "passed": true
+    },
+    {
+      "name": "5.19 g/Delta=0.1 双重精确谱",
+      "residual": 3.2959746043559335e-17,
+      "tolerance": 1e-09,
+      "passed": true
+    },
+    {
+      "name": "5.19 g/Delta=0.1 时间反演对称",
+      "residual": 0.0,
+      "tolerance": 1e-09,
+      "passed": true
+    },
+    {
+      "name": "5.19 g/Delta=0.1 Kramers伙伴同能",
+      "residual": 2.7755575615628914e-17,
+      "tolerance": 1e-09,
+      "passed": true
+    },
+    {
+      "name": "5.19 g/Delta=0.1 Kramers伙伴正交",
+      "residual": 0.0,
+      "tolerance": 1e-09,
+      "passed": true
+    },
+    {
+      "name": "5.19 g/Delta=1 双重精确谱",
+      "residual": 1.1102230246251565e-16,
+      "tolerance": 1e-09,
+      "passed": true
+    },
+    {
+      "name": "5.19 g/Delta=1 时间反演对称",
+      "residual": 0.0,
+      "tolerance": 1e-09,
+      "passed": true
+    },
+    {
+      "name": "5.19 g/Delta=1 Kramers伙伴同能",
+      "residual": 0.0,
+      "tolerance": 1e-09,
+      "passed": true
+    },
+    {
+      "name": "5.19 g/Delta=1 Kramers伙伴正交",
+      "residual": 0.0,
+      "tolerance": 1e-09,
+      "passed": true
+    },
+    {
+      "name": "5.19 g/Delta=10 双重精确谱",
+      "residual": 1.7763568394002505e-15,
+      "tolerance": 1e-09,
+      "passed": true
+    },
+    {
+      "name": "5.19 g/Delta=10 时间反演对称",
+      "residual": 0.0,
+      "tolerance": 1e-09,
+      "passed": true
+    },
+    {
+      "name": "5.19 g/Delta=10 Kramers伙伴同能",
+      "residual": 8.881784197001252e-16,
+      "tolerance": 1e-09,
+      "passed": true
+    },
+    {
+      "name": "5.19 g/Delta=10 Kramers伙伴正交",
+      "residual": 0.0,
+      "tolerance": 1e-09,
+      "passed": true
+    },
+    {
+      "name": "5.20 角积分 l=0,1;m=0",
+      "residual": 1.1102230246251565e-16,
+      "tolerance": 1e-09,
+      "passed": true
+    },
+    {
+      "name": "5.20 角积分 l=1,2;m=0",
+      "residual": 2.220446049250313e-16,
+      "tolerance": 1e-09,
+      "passed": true
+    },
+    {
+      "name": "5.20 角积分 l=1,2;m=1",
+      "residual": 0.0,
+      "tolerance": 1e-09,
+      "passed": true
+    },
+    {
+      "name": "5.20 角积分 l=2,3;m=0",
+      "residual": 5.551115123125783e-16,
+      "tolerance": 1e-09,
+      "passed": true
+    },
+    {
+      "name": "5.20 角积分 l=2,3;m=2",
+      "residual": 1.1102230246251565e-16,
+      "tolerance": 1e-09,
+      "passed": true
+    },
+    {
+      "name": "5.20 R30 归一化",
+      "residual": 1.1546319456101628e-13,
+      "tolerance": 1e-09,
+      "passed": true
+    },
+    {
+      "name": "5.20 R31 归一化",
+      "residual": 1.1790568521519162e-13,
+      "tolerance": 1e-09,
+      "passed": true
+    },
+    {
+      "name": "5.20 R32 归一化",
+      "residual": 1.2523315717771766e-13,
+      "tolerance": 1e-09,
+      "passed": true
+    },
+    {
+      "name": "5.20 <3s|z|3p0>=-3sqrt6",
+      "residual": 8.570921750106208e-13,
+      "tolerance": 1e-09,
+      "passed": true
+    },
+    {
+      "name": "5.20 <3p0|z|3d0>=-3sqrt3",
+      "residual": 6.297184995673888e-13,
+      "tolerance": 1e-09,
+      "passed": true
+    },
+    {
+      "name": "5.20 <3p1|z|3d1>=-9/2",
+      "residual": 5.444533712761768e-13,
+      "tolerance": 1e-09,
+      "passed": true
+    },
+    {
+      "name": "5.20 m0 三个态正交归一",
+      "residual": 2.2181528799887818e-16,
+      "tolerance": 1e-09,
+      "passed": true
+    },
+    {
+      "name": "5.20 m0 三个本征方程",
+      "residual": 1.7763568394002505e-15,
+      "tolerance": 1e-09,
+      "passed": true
+    },
+    {
+      "name": "5.20 m1 二阶矩阵谱",
+      "residual": 0.0,
+      "tolerance": 1e-09,
+      "passed": true
+    },
+    {
+      "name": "5.20 零m0 l1非齐次方程（有理精确）",
+      "residual": 0.0,
+      "tolerance": 1e-09,
+      "passed": true
+    },
+    {
+      "name": "5.20 零分支l3非齐次方程（有理精确）",
+      "residual": 0.0,
+      "tolerance": 1e-09,
+      "passed": true
+    },
+    {
+      "name": "5.20 l1一阶修正与3p正交（有理精确）",
+      "residual": 0.0,
+      "tolerance": 1e-09,
+      "passed": true
+    },
+    {
+      "name": "5.20 零m0源与3p正交（有理精确）",
+      "residual": 0.0,
+      "tolerance": 1e-09,
+      "passed": true
+    },
+    {
+      "name": "5.20 零m0二阶能量系数=-3483/4",
+      "residual": 0.0,
+      "tolerance": 1e-09,
+      "passed": true
+    },
+    {
+      "name": "5.20 零m2二阶能量系数=-1377/2",
+      "residual": 0.0,
+      "tolerance": 1e-09,
+      "passed": true
+    },
+    {
+      "name": "5.20 零m0独立Gauss-Laguerre积分",
+      "residual": 1.0436451702844352e-10,
+      "tolerance": 1e-07,
+      "passed": true
+    },
+    {
+      "name": "5.20 零m2独立Gauss-Laguerre积分",
+      "residual": 8.230927051045e-11,
+      "tolerance": 1e-07,
+      "passed": true
+    }
+  ],
+  "check_count": 41,
+  "passed": true,
+  "max_residual": 1.0436451702844352e-10
+}

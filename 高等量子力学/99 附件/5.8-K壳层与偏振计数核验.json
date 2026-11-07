@@ -1,0 +1,136 @@
+{
+  "purpose": "§5.8教学补充，不计章末原题；图为平面波近似的相对角分布。",
+  "parameters": {
+    "Z": 2,
+    "u": 8.0,
+    "v": 0.4744525547445255,
+    "alpha": 0.0072992700729927005,
+    "peak_theta_deg": 76.89215416667773,
+    "beta_electron": 0.11678832116788321,
+    "sommerfeld_abs": 0.125
+  },
+  "checks": [
+    {
+      "name": "fourier_1s_q=0.1",
+      "residual": 1.7763568394002505e-15,
+      "tol": 1e-11,
+      "passed": true
+    },
+    {
+      "name": "velocity_integral_q=0.1",
+      "residual": 0.0,
+      "tol": 1e-11,
+      "passed": true
+    },
+    {
+      "name": "fourier_1s_q=1.0",
+      "residual": 1.7763568394002505e-15,
+      "tol": 1e-11,
+      "passed": true
+    },
+    {
+      "name": "velocity_integral_q=1.0",
+      "residual": 0.0,
+      "tol": 1e-11,
+      "passed": true
+    },
+    {
+      "name": "fourier_1s_q=3.0",
+      "residual": 2.7755575615628914e-17,
+      "tol": 1e-11,
+      "passed": true
+    },
+    {
+      "name": "velocity_integral_q=3.0",
+      "residual": 5.551115123125783e-17,
+      "tol": 1e-11,
+      "passed": true
+    },
+    {
+      "name": "fourier_1s_q=8.0",
+      "residual": 2.0946785972419946e-16,
+      "tol": 1e-11,
+      "passed": true
+    },
+    {
+      "name": "velocity_integral_q=8.0",
+      "residual": 2.0816681711721685e-16,
+      "tol": 1e-11,
+      "passed": true
+    },
+    {
+      "name": "fourier_1s_q=9.0",
+      "residual": 6.392456008974534e-16,
+      "tol": 1e-11,
+      "passed": true
+    },
+    {
+      "name": "velocity_integral_q=9.0",
+      "residual": 1.8041124150158794e-16,
+      "tol": 1e-11,
+      "passed": true
+    },
+    {
+      "name": "peak_position_vs_fine_grid",
+      "residual": 0.0005611960767613056,
+      "tol": 0.002,
+      "passed": true
+    },
+    {
+      "name": "azimuthal_node",
+      "residual": 3.958203286099132e-33,
+      "tol": 1e-14,
+      "passed": true
+    },
+    {
+      "name": "integrated_angular_shape",
+      "residual": 1.7763568394002505e-15,
+      "tol": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "transverse_projector_m=-1",
+      "residual": 1.6653345369377348e-16,
+      "tol": 1e-13,
+      "passed": true
+    },
+    {
+      "name": "rate_m=-1",
+      "residual": 9.43689570931383e-16,
+      "tol": 1e-13,
+      "passed": true
+    },
+    {
+      "name": "transverse_projector_m=0",
+      "residual": 5.551115123125783e-17,
+      "tol": 1e-13,
+      "passed": true
+    },
+    {
+      "name": "rate_m=0",
+      "residual": 1.3877787807814457e-15,
+      "tol": 1e-13,
+      "passed": true
+    },
+    {
+      "name": "transverse_projector_m=1",
+      "residual": 1.6653345369377348e-16,
+      "tol": 1e-13,
+      "passed": true
+    },
+    {
+      "name": "rate_m=1",
+      "residual": 9.43689570931383e-16,
+      "tol": 1e-13,
+      "passed": true
+    },
+    {
+      "name": "unpolarized_isotropy",
+      "residual": 1.942890293094024e-16,
+      "tol": 1e-13,
+      "passed": true
+    }
+  ],
+  "count": 20,
+  "all_passed": true
+}

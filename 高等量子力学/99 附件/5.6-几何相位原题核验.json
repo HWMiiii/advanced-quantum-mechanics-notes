@@ -1,0 +1,514 @@
+{
+  "sources": "习题5.43/5.44：PDF384／印刷362；定义PDF348，能谱/曲率PDF350。",
+  "angle_definition": "theta=从+z测量的真实极角；反向定义为phi由0递减到-2pi。",
+  "checks": [
+    {
+      "test": "笛卡尔取旋度 0 north",
+      "residual": 1.1199360883118459e-11,
+      "tolerance": 5e-09,
+      "passed": true
+    },
+    {
+      "test": "笛卡尔取旋度 0 south",
+      "residual": 2.243145391656043e-10,
+      "tolerance": 5e-09,
+      "passed": true
+    },
+    {
+      "test": "两规范差 0",
+      "residual": 0.0,
+      "tolerance": 1e-09,
+      "passed": true
+    },
+    {
+      "test": "笛卡尔取旋度 1 north",
+      "residual": 3.5303968082267545e-11,
+      "tolerance": 5e-09,
+      "passed": true
+    },
+    {
+      "test": "笛卡尔取旋度 1 south",
+      "residual": 1.9561699482473216e-11,
+      "tolerance": 5e-09,
+      "passed": true
+    },
+    {
+      "test": "两规范差 1",
+      "residual": 0.0,
+      "tolerance": 1e-09,
+      "passed": true
+    },
+    {
+      "test": "闭环重叠 30度 spin=1 reverse=False",
+      "residual": 1.3337643139932354e-07,
+      "tolerance": 4e-07,
+      "passed": true
+    },
+    {
+      "test": "本征能量 30度 spin=1 reverse=False",
+      "residual": 4.440892098500626e-16,
+      "tolerance": 1e-09,
+      "passed": true
+    },
+    {
+      "test": "闭环重叠 30度 spin=1 reverse=True",
+      "residual": 1.3337643139932354e-07,
+      "tolerance": 4e-07,
+      "passed": true
+    },
+    {
+      "test": "本征能量 30度 spin=1 reverse=True",
+      "residual": 4.440892098500626e-16,
+      "tolerance": 1e-09,
+      "passed": true
+    },
+    {
+      "test": "闭环重叠 30度 spin=-1 reverse=False",
+      "residual": 1.3337643128830123e-07,
+      "tolerance": 4e-07,
+      "passed": true
+    },
+    {
+      "test": "本征能量 30度 spin=-1 reverse=False",
+      "residual": 1.5543122344752192e-15,
+      "tolerance": 1e-09,
+      "passed": true
+    },
+    {
+      "test": "闭环重叠 30度 spin=-1 reverse=True",
+      "residual": 1.3337643128830123e-07,
+      "tolerance": 4e-07,
+      "passed": true
+    },
+    {
+      "test": "本征能量 30度 spin=-1 reverse=True",
+      "residual": 1.5543122344752192e-15,
+      "tolerance": 1e-09,
+      "passed": true
+    },
+    {
+      "test": "闭环重叠 60度 spin=1 reverse=False",
+      "residual": 2.3101479706966185e-07,
+      "tolerance": 4e-07,
+      "passed": true
+    },
+    {
+      "test": "本征能量 60度 spin=1 reverse=False",
+      "residual": 4.440892098500626e-16,
+      "tolerance": 1e-09,
+      "passed": true
+    },
+    {
+      "test": "闭环重叠 60度 spin=1 reverse=True",
+      "residual": 2.3101479706966185e-07,
+      "tolerance": 4e-07,
+      "passed": true
+    },
+    {
+      "test": "本征能量 60度 spin=1 reverse=True",
+      "residual": 4.440892098500626e-16,
+      "tolerance": 1e-09,
+      "passed": true
+    },
+    {
+      "test": "闭环重叠 60度 spin=-1 reverse=False",
+      "residual": 2.310147995121525e-07,
+      "tolerance": 4e-07,
+      "passed": true
+    },
+    {
+      "test": "本征能量 60度 spin=-1 reverse=False",
+      "residual": 6.661338147750939e-16,
+      "tolerance": 1e-09,
+      "passed": true
+    },
+    {
+      "test": "闭环重叠 60度 spin=-1 reverse=True",
+      "residual": 2.310147995121525e-07,
+      "tolerance": 4e-07,
+      "passed": true
+    },
+    {
+      "test": "本征能量 60度 spin=-1 reverse=True",
+      "residual": 6.661338147750939e-16,
+      "tolerance": 1e-09,
+      "passed": true
+    },
+    {
+      "test": "闭环重叠 90度 spin=1 reverse=False",
+      "residual": 3.797643038629971e-15,
+      "tolerance": 4e-07,
+      "passed": true
+    },
+    {
+      "test": "本征能量 90度 spin=1 reverse=False",
+      "residual": 4.440892098500626e-16,
+      "tolerance": 1e-09,
+      "passed": true
+    },
+    {
+      "test": "闭环重叠 90度 spin=1 reverse=True",
+      "residual": 3.797643038629971e-15,
+      "tolerance": 4e-07,
+      "passed": true
+    },
+    {
+      "test": "本征能量 90度 spin=1 reverse=True",
+      "residual": 4.440892098500626e-16,
+      "tolerance": 1e-09,
+      "passed": true
+    },
+    {
+      "test": "闭环重叠 90度 spin=-1 reverse=False",
+      "residual": 2.220446049250313e-15,
+      "tolerance": 4e-07,
+      "passed": true
+    },
+    {
+      "test": "本征能量 90度 spin=-1 reverse=False",
+      "residual": 4.440892098500626e-16,
+      "tolerance": 1e-09,
+      "passed": true
+    },
+    {
+      "test": "闭环重叠 90度 spin=-1 reverse=True",
+      "residual": 2.220446049250313e-15,
+      "tolerance": 4e-07,
+      "passed": true
+    },
+    {
+      "test": "本征能量 90度 spin=-1 reverse=True",
+      "residual": 4.440892098500626e-16,
+      "tolerance": 1e-09,
+      "passed": true
+    },
+    {
+      "test": "闭环重叠 120度 spin=1 reverse=False",
+      "residual": 2.3101479331778834e-07,
+      "tolerance": 4e-07,
+      "passed": true
+    },
+    {
+      "test": "本征能量 120度 spin=1 reverse=False",
+      "residual": 1.1102230246251565e-15,
+      "tolerance": 1e-09,
+      "passed": true
+    },
+    {
+      "test": "闭环重叠 120度 spin=1 reverse=True",
+      "residual": 2.3101479331778834e-07,
+      "tolerance": 4e-07,
+      "passed": true
+    },
+    {
+      "test": "本征能量 120度 spin=1 reverse=True",
+      "residual": 1.1102230246251565e-15,
+      "tolerance": 1e-09,
+      "passed": true
+    },
+    {
+      "test": "闭环重叠 120度 spin=-1 reverse=False",
+      "residual": 2.3101479864685885e-07,
+      "tolerance": 4e-07,
+      "passed": true
+    },
+    {
+      "test": "本征能量 120度 spin=-1 reverse=False",
+      "residual": 6.661338147750939e-16,
+      "tolerance": 1e-09,
+      "passed": true
+    },
+    {
+      "test": "闭环重叠 120度 spin=-1 reverse=True",
+      "residual": 2.3101479864685885e-07,
+      "tolerance": 4e-07,
+      "passed": true
+    },
+    {
+      "test": "本征能量 120度 spin=-1 reverse=True",
+      "residual": 6.661338147750939e-16,
+      "tolerance": 1e-09,
+      "passed": true
+    },
+    {
+      "test": "闭环重叠 155度 spin=1 reverse=False",
+      "residual": 9.971963190814921e-08,
+      "tolerance": 4e-07,
+      "passed": true
+    },
+    {
+      "test": "本征能量 155度 spin=1 reverse=False",
+      "residual": 1.7763568394002505e-15,
+      "tolerance": 1e-09,
+      "passed": true
+    },
+    {
+      "test": "闭环重叠 155度 spin=1 reverse=True",
+      "residual": 9.971963190814921e-08,
+      "tolerance": 4e-07,
+      "passed": true
+    },
+    {
+      "test": "本征能量 155度 spin=1 reverse=True",
+      "residual": 1.7763568394002505e-15,
+      "tolerance": 1e-09,
+      "passed": true
+    },
+    {
+      "test": "闭环重叠 155度 spin=-1 reverse=False",
+      "residual": 9.971963457268447e-08,
+      "tolerance": 4e-07,
+      "passed": true
+    },
+    {
+      "test": "本征能量 155度 spin=-1 reverse=False",
+      "residual": 4.440892098500626e-16,
+      "tolerance": 1e-09,
+      "passed": true
+    },
+    {
+      "test": "闭环重叠 155度 spin=-1 reverse=True",
+      "residual": 9.971963457268447e-08,
+      "tolerance": 4e-07,
+      "passed": true
+    },
+    {
+      "test": "本征能量 155度 spin=-1 reverse=True",
+      "residual": 4.440892098500626e-16,
+      "tolerance": 1e-09,
+      "passed": true
+    },
+    {
+      "test": "随机局域重相位不改变离散闭环",
+      "residual": 5.329070518200751e-15,
+      "tolerance": 1e-11,
+      "passed": true
+    },
+    {
+      "test": "同一自旋方向对磁矩符号不敏感",
+      "residual": 0.0,
+      "tolerance": 1e-11,
+      "passed": true
+    },
+    {
+      "test": "球冠独立数值通量 30度",
+      "residual": 0.0,
+      "tolerance": 1e-09,
+      "passed": true
+    },
+    {
+      "test": "球冠独立数值通量 60度",
+      "residual": 2.220446049250313e-16,
+      "tolerance": 1e-09,
+      "passed": true
+    },
+    {
+      "test": "球冠独立数值通量 120度",
+      "residual": 7.105427357601002e-15,
+      "tolerance": 1e-09,
+      "passed": true
+    },
+    {
+      "test": "球冠独立数值通量 155度",
+      "residual": 1.509903313490213e-14,
+      "tolerance": 1e-09,
+      "passed": true
+    }
+  ],
+  "passed": true,
+  "count": 52,
+  "wilson_loop_samples": [
+    {
+      "theta_degrees": 30,
+      "spin": 1,
+      "reverse": false,
+      "continuum_phase_rad": -0.42089360723846625,
+      "numerical_principal_phase_rad": -0.42089347386203485,
+      "phase_error_mod_2pi": 1.3337643139932354e-07
+    },
+    {
+      "theta_degrees": 30,
+      "spin": 1,
+      "reverse": true,
+      "continuum_phase_rad": 0.42089360723846625,
+      "numerical_principal_phase_rad": 0.42089347386203485,
+      "phase_error_mod_2pi": 1.3337643139932354e-07
+    },
+    {
+      "theta_degrees": 30,
+      "spin": -1,
+      "reverse": false,
+      "continuum_phase_rad": 0.42089360723846625,
+      "numerical_principal_phase_rad": 0.42089347386203496,
+      "phase_error_mod_2pi": 1.3337643128830123e-07
+    },
+    {
+      "theta_degrees": 30,
+      "spin": -1,
+      "reverse": true,
+      "continuum_phase_rad": -0.42089360723846625,
+      "numerical_principal_phase_rad": -0.42089347386203496,
+      "phase_error_mod_2pi": 1.3337643128830123e-07
+    },
+    {
+      "theta_degrees": 60,
+      "spin": 1,
+      "reverse": false,
+      "continuum_phase_rad": -1.5707963267948961,
+      "numerical_principal_phase_rad": -1.570796095780099,
+      "phase_error_mod_2pi": 2.3101479706966185e-07
+    },
+    {
+      "theta_degrees": 60,
+      "spin": 1,
+      "reverse": true,
+      "continuum_phase_rad": 1.5707963267948961,
+      "numerical_principal_phase_rad": 1.570796095780099,
+      "phase_error_mod_2pi": 2.3101479706966185e-07
+    },
+    {
+      "theta_degrees": 60,
+      "spin": -1,
+      "reverse": false,
+      "continuum_phase_rad": 1.5707963267948961,
+      "numerical_principal_phase_rad": 1.5707960957800966,
+      "phase_error_mod_2pi": 2.310147995121525e-07
+    },
+    {
+      "theta_degrees": 60,
+      "spin": -1,
+      "reverse": true,
+      "continuum_phase_rad": -1.5707963267948961,
+      "numerical_principal_phase_rad": -1.5707960957800966,
+      "phase_error_mod_2pi": 2.310147995121525e-07
+    },
+    {
+      "theta_degrees": 90,
+      "spin": 1,
+      "reverse": false,
+      "continuum_phase_rad": -3.1415926535897927,
+      "numerical_principal_phase_rad": 3.1415926535897905,
+      "phase_error_mod_2pi": 3.797643038629971e-15
+    },
+    {
+      "theta_degrees": 90,
+      "spin": 1,
+      "reverse": true,
+      "continuum_phase_rad": 3.1415926535897927,
+      "numerical_principal_phase_rad": -3.1415926535897905,
+      "phase_error_mod_2pi": 3.797643038629971e-15
+    },
+    {
+      "theta_degrees": 90,
+      "spin": -1,
+      "reverse": false,
+      "continuum_phase_rad": 3.1415926535897927,
+      "numerical_principal_phase_rad": 3.1415926535897905,
+      "phase_error_mod_2pi": 2.220446049250313e-15
+    },
+    {
+      "theta_degrees": 90,
+      "spin": -1,
+      "reverse": true,
+      "continuum_phase_rad": -3.1415926535897927,
+      "numerical_principal_phase_rad": -3.1415926535897905,
+      "phase_error_mod_2pi": 2.220446049250313e-15
+    },
+    {
+      "theta_degrees": 120,
+      "spin": 1,
+      "reverse": false,
+      "continuum_phase_rad": -4.712388980384689,
+      "numerical_principal_phase_rad": 1.5707960957801048,
+      "phase_error_mod_2pi": 2.3101479331778834e-07
+    },
+    {
+      "theta_degrees": 120,
+      "spin": 1,
+      "reverse": true,
+      "continuum_phase_rad": 4.712388980384689,
+      "numerical_principal_phase_rad": -1.5707960957801048,
+      "phase_error_mod_2pi": 2.3101479331778834e-07
+    },
+    {
+      "theta_degrees": 120,
+      "spin": -1,
+      "reverse": false,
+      "continuum_phase_rad": 4.712388980384689,
+      "numerical_principal_phase_rad": -1.570796095780099,
+      "phase_error_mod_2pi": 2.3101479864685885e-07
+    },
+    {
+      "theta_degrees": 120,
+      "spin": -1,
+      "reverse": true,
+      "continuum_phase_rad": -4.712388980384689,
+      "numerical_principal_phase_rad": 1.570796095780099,
+      "phase_error_mod_2pi": 2.3101479864685885e-07
+    },
+    {
+      "theta_degrees": 155,
+      "spin": 1,
+      "reverse": false,
+      "continuum_phase_rad": -5.988842539235356,
+      "numerical_principal_phase_rad": 0.2943426682245984,
+      "phase_error_mod_2pi": 9.971963190814921e-08
+    },
+    {
+      "theta_degrees": 155,
+      "spin": 1,
+      "reverse": true,
+      "continuum_phase_rad": 5.988842539235356,
+      "numerical_principal_phase_rad": -0.2943426682245984,
+      "phase_error_mod_2pi": 9.971963190814921e-08
+    },
+    {
+      "theta_degrees": 155,
+      "spin": -1,
+      "reverse": false,
+      "continuum_phase_rad": 5.988842539235356,
+      "numerical_principal_phase_rad": -0.29434266822459615,
+      "phase_error_mod_2pi": 9.971963457268447e-08
+    },
+    {
+      "theta_degrees": 155,
+      "spin": -1,
+      "reverse": true,
+      "continuum_phase_rad": -5.988842539235356,
+      "numerical_principal_phase_rad": 0.29434266822459615,
+      "phase_error_mod_2pi": 9.971963457268447e-08
+    }
+  ],
+  "convergence_theta_60_deg": [
+    {
+      "segments": 128,
+      "principal_phase_rad": -1.5705597320478426,
+      "absolute_error": 0.00023659474705395311
+    },
+    {
+      "segments": 256,
+      "principal_phase_rad": -1.5707371847888134,
+      "absolute_error": 5.914200608314602e-05
+    },
+    {
+      "segments": 512,
+      "principal_phase_rad": -1.5707815417108753,
+      "absolute_error": 1.4785084021307071e-05
+    },
+    {
+      "segments": 1024,
+      "principal_phase_rad": -1.5707926305499835,
+      "absolute_error": 3.6962449130317765e-06
+    },
+    {
+      "segments": 2048,
+      "principal_phase_rad": -1.570795402735298,
+      "absolute_error": 9.240595986170774e-07
+    },
+    {
+      "segments": 4096,
+      "principal_phase_rad": -1.570796095780099,
+      "absolute_error": 2.3101479751375106e-07
+    }
+  ]
+}

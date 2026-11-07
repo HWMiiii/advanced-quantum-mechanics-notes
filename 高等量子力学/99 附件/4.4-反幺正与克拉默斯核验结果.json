@@ -1,0 +1,300 @@
+{
+  "date": "2026-10-30",
+  "purpose": "§4.4教学补充；独立数值核验，不表示学习完成",
+  "all_passed": true,
+  "number_of_checks": 40,
+  "maximum_residual": 4.796163466380676e-14,
+  "checks": [
+    {
+      "name": "自旋1/2：Theta²=-I",
+      "residual": 0.0,
+      "tolerance": 1e-11,
+      "passed": true
+    },
+    {
+      "name": "反幺正内积次序",
+      "residual": 1.3877787807814457e-17,
+      "tolerance": 1e-11,
+      "passed": true
+    },
+    {
+      "name": "任意旋量与时间反演伙伴正交",
+      "residual": 4.698881276872047e-18,
+      "tolerance": 1e-11,
+      "passed": true
+    },
+    {
+      "name": "三分量自旋都翻转",
+      "residual": 0.0,
+      "tolerance": 1e-11,
+      "passed": true
+    },
+    {
+      "name": "教材4.139一般非厄米X矩阵元",
+      "residual": 2.237726045655905e-16,
+      "tolerance": 1e-11,
+      "passed": true
+    },
+    {
+      "name": "反幺正基底变换U'=W†UW*",
+      "residual": 2.2887833992611187e-16,
+      "tolerance": 1e-11,
+      "passed": true
+    },
+    {
+      "name": "变换基底后Theta²仍=-I",
+      "residual": 5.566233224333718e-16,
+      "tolerance": 1e-11,
+      "passed": true
+    },
+    {
+      "name": "原K在新基中的矩阵W†W*",
+      "residual": 3.7238012298709097e-16,
+      "tolerance": 1e-11,
+      "passed": true
+    },
+    {
+      "name": "Theta整体相位不改变平方",
+      "residual": 1.1532940075757148e-17,
+      "tolerance": 1e-11,
+      "passed": true
+    },
+    {
+      "name": "j=3/2：Theta²=-I",
+      "residual": 0.0,
+      "tolerance": 1e-11,
+      "passed": true
+    },
+    {
+      "name": "电四极哈密顿量厄米",
+      "residual": 0.0,
+      "tolerance": 1e-11,
+      "passed": true
+    },
+    {
+      "name": "电四极哈密顿量时间反演不变",
+      "residual": 0.0,
+      "tolerance": 1e-11,
+      "passed": true
+    },
+    {
+      "name": "零场双重谱解析式",
+      "residual": 0.0,
+      "tolerance": 1e-11,
+      "passed": true
+    },
+    {
+      "name": "零场本征态1伙伴同能",
+      "residual": 0.0,
+      "tolerance": 1e-11,
+      "passed": true
+    },
+    {
+      "name": "零场本征态1伙伴正交",
+      "residual": 0.0,
+      "tolerance": 1e-11,
+      "passed": true
+    },
+    {
+      "name": "零场本征态2伙伴同能",
+      "residual": 5.551115123125783e-17,
+      "tolerance": 1e-11,
+      "passed": true
+    },
+    {
+      "name": "零场本征态2伙伴正交",
+      "residual": 0.0,
+      "tolerance": 1e-11,
+      "passed": true
+    },
+    {
+      "name": "零场本征态3伙伴同能",
+      "residual": 0.0,
+      "tolerance": 1e-11,
+      "passed": true
+    },
+    {
+      "name": "零场本征态3伙伴正交",
+      "residual": 0.0,
+      "tolerance": 1e-11,
+      "passed": true
+    },
+    {
+      "name": "零场本征态4伙伴同能",
+      "residual": 5.551115123125783e-17,
+      "tolerance": 1e-11,
+      "passed": true
+    },
+    {
+      "name": "零场本征态4伙伴正交",
+      "residual": 0.0,
+      "tolerance": 1e-11,
+      "passed": true
+    },
+    {
+      "name": "外场反转的算符关系ThetaH(b)Theta^-1=H(-b)",
+      "residual": 0.0,
+      "tolerance": 1e-11,
+      "passed": true
+    },
+    {
+      "name": "正反磁场谱集合相同",
+      "residual": 8.881784197001252e-16,
+      "tolerance": 1e-11,
+      "passed": true
+    },
+    {
+      "name": "固定磁场对称性破坏量满足解析式",
+      "residual": 5.551115123125783e-17,
+      "tolerance": 1e-11,
+      "passed": true
+    },
+    {
+      "name": "电四极与Zeeman哈密顿量迹均为零",
+      "residual": 1.1102230246251565e-16,
+      "tolerance": 1e-11,
+      "passed": true
+    },
+    {
+      "name": "Theta U(t) Theta^-1=U(-t)",
+      "residual": 0.0,
+      "tolerance": 1e-11,
+      "passed": true
+    },
+    {
+      "name": "4.12三个态归一正交",
+      "residual": 2.220446049250313e-16,
+      "tolerance": 1e-11,
+      "passed": true
+    },
+    {
+      "name": "4.12三本征方程",
+      "residual": 1.1102230246251565e-16,
+      "tolerance": 1e-11,
+      "passed": true
+    },
+    {
+      "name": "4.12自旋1时间反演不变",
+      "residual": 0.0,
+      "tolerance": 1e-11,
+      "passed": true
+    },
+    {
+      "name": "4.12自旋1的Theta²=I",
+      "residual": 0.0,
+      "tolerance": 1e-11,
+      "passed": true
+    },
+    {
+      "name": "4.12教材相位下三个Theta相位",
+      "residual": 0.0,
+      "tolerance": 1e-11,
+      "passed": true
+    },
+    {
+      "name": "氢n=2径向积分数值与解析一致",
+      "residual": 4.796163466380676e-14,
+      "tolerance": 1e-11,
+      "passed": true
+    },
+    {
+      "name": "s/p时间反演平方=-I",
+      "residual": 0.0,
+      "tolerance": 1e-11,
+      "passed": true
+    },
+    {
+      "name": "投影位置向量在时间反演下为偶",
+      "residual": 0.0,
+      "tolerance": 1e-11,
+      "passed": true
+    },
+    {
+      "name": "投影位置向量为旋转矢量xy分量",
+      "residual": 0.0,
+      "tolerance": 1e-11,
+      "passed": true
+    },
+    {
+      "name": "实s/p等权混合的非零z期望",
+      "residual": 2.220446049250313e-16,
+      "tolerance": 1e-11,
+      "passed": true
+    },
+    {
+      "name": "时间反演伙伴保持位置期望",
+      "residual": 0.0,
+      "tolerance": 1e-11,
+      "passed": true
+    },
+    {
+      "name": "该伙伴不属于原alpha的m负态",
+      "residual": 2.2371143170757382e-17,
+      "tolerance": 1e-11,
+      "passed": true
+    },
+    {
+      "name": "纯虚相对系数的alpha多重态闭合",
+      "residual": 0.0,
+      "tolerance": 1e-11,
+      "passed": true
+    },
+    {
+      "name": "闭合多重态的z期望为零",
+      "residual": 0.0,
+      "tolerance": 1e-11,
+      "passed": true
+    }
+  ],
+  "quadrupole": {
+    "j": 1.5,
+    "D": 1.0,
+    "E": 0.35,
+    "field_direction": [
+      0.2672612419124244,
+      0.5345224838248488,
+      0.8017837257372732
+    ],
+    "zero_field_energies": [
+      -1.1694015563526499,
+      -1.1694015563526499,
+      1.1694015563526499,
+      1.1694015563526499
+    ],
+    "b_fixed": 0.4,
+    "fixed_field_energies": [
+      -1.510045688009252,
+      -0.8719186857416478,
+      0.7479005427792598,
+      1.6340638309716398
+    ],
+    "minimum_fixed_field_gap": 0.6381270022676043,
+    "fixed_field_time_reversal_breaking_norm": 1.7888543819998317
+  },
+  "spin1_exercise4_12": {
+    "A": 1.4,
+    "B": 0.35,
+    "hbar": 1,
+    "eigenvalues": [
+      0.0,
+      1.0499999999999998,
+      1.75
+    ],
+    "theta_phases": [
+      1,
+      1,
+      -1
+    ]
+  },
+  "s_p_counterexample": {
+    "hydrogen_n2_radial_integral_in_a0": -5.196152422706632,
+    "numerical_radial_integral_in_a0": -5.196152422706584,
+    "equal_real_mixture_z_in_a0": 1.7320508075688774,
+    "same_alpha_closure": "In the stated real radial/CG basis, cp/cs must be purely imaginary when both coefficients are nonzero."
+  },
+  "assets": [
+    "4.4-自旋3_2克拉默斯谱.csv",
+    "4.4-克拉默斯简并与磁场劈裂.png",
+    "4.4-克拉默斯简并与磁场劈裂.svg"
+  ]
+}

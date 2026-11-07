@@ -1,0 +1,115 @@
+{
+  "section": "3.6 轨道角动量",
+  "purpose": "教学补充及解析公式复算；不是本节原题规定的数值任务",
+  "phase_convention": "Condon–Shortley, active rotation exp(-i beta Ly/hbar)",
+  "probability_measure": "dP=|Y|^2 dOmega=|Y|^2 sin(theta) dtheta dphi",
+  "status": "passed",
+  "all_checks_passed": true,
+  "checks": {
+    "sphere_orthonormality_l_0_to_5": {
+      "max_abs_error": 6.661351956185493e-16,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    "addition_theorem_same_direction": {
+      "max_abs_error": 1.5543122344752192e-15,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    "spherical_harmonic_D_column": {
+      "max_abs_error": 9.893311094788709e-15,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    "d_00_equals_legendre": {
+      "max_abs_error": 1.794543139889848e-15,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    "polar_marginal_normalization": {
+      "max_abs_error": 1.5421257604231187e-09,
+      "tolerance": 2e-08,
+      "passed": true
+    },
+    "real_px_azimuth_marginal": {
+      "max_abs_error": 1.6653345369377348e-16,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    "complex_Y11_azimuth_marginal": {
+      "max_abs_error": 1.1102230246251565e-16,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    "rotated_real_p_spherical_coefficients": {
+      "max_abs_error": 1.895298393527558e-15,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    "rotated_real_p_probabilities": {
+      "max_abs_error": 2.220446049250313e-16,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    "rotated_real_p_axis_eigenvalue_zero": {
+      "max_abs_error": 1.6655551154817025e-16,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    "rotated_real_p_all_mean_L_zero": {
+      "max_abs_error": 7.451177388921938e-17,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    "rotated_real_p_norm": {
+      "max_abs_error": 3.3306690738754696e-16,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    "rotated_real_p_L_squared": {
+      "max_abs_error": 8.881784197001252e-16,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    "exercise_3_23_coefficient_phases": {
+      "max_abs_error": 3.925231146709438e-17,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    "exercise_3_23_probabilities": {
+      "max_abs_error": 0.0,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    "exercise_3_26_revisit_three_routes": {
+      "max_abs_error": 2.130240428499519e-15,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    "exercise_3_26_revisit_total_probability": {
+      "max_abs_error": 5.551115123125783e-16,
+      "tolerance": 2e-11,
+      "passed": true
+    }
+  },
+  "reference_values": {
+    "exercise_3_23_m_order": [
+      1,
+      0,
+      -1
+    ],
+    "exercise_3_23_probabilities": [
+      0.09090909090909091,
+      0.8181818181818182,
+      0.09090909090909091
+    ],
+    "sphere_quadrature": "80-point Gauss-Legendre in u=cos(theta), 128 uniform phi points",
+    "matrix_units": "hbar=1"
+  },
+  "outputs": [
+    "3.6-球谐函数与角概率.png",
+    "3.6-球谐函数与角概率.svg",
+    "3.6-轨道旋转与球谐叠加.png",
+    "3.6-轨道旋转与球谐叠加.svg"
+  ]
+}

@@ -1,0 +1,14 @@
+﻿exercise,quantity,value
+5.25,r2_over_a0_squared,3.0000000000003677
+5.25,chi_atom_cgs_cm3,-3.94551828913678e-30
+5.25,chi_molar_cgs_cm3_mol,-2.376046650833607e-06
+5.25,physical_chi_molar_SI_m3_mol,-2.9858282811381965e-11
+5.26,Zeff,1.6875
+5.26,one_electron_r2_over_a0_squared,1.0534979423869604
+5.26,chi_energy_coefficient_atom_cgs_cm3,2.7710635995034727e-30
+5.26,chi_energy_coefficient_molar_cgs_cm3_mol,1.6687735051122178e-06
+5.26,physical_chi_molar_cgs_cm3_mol,-1.6687735051122178e-06
+5.26,physical_chi_molar_SI_m3_mol,-2.097042633666333e-11
+5.26,textbook_measured_magnitude_cgs_cm3_mol,1.88e-06
+5.26,predicted_to_measured,0.8876454814426691
+5.26,relative_error_percent,-11.235451855733093

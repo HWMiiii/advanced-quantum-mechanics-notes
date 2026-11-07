@@ -1,0 +1,124 @@
+{
+  "status": "PASS",
+  "hbar": 1,
+  "tolerance": 5e-12,
+  "basis": "Rows m_prime, columns m, both descending from j to -j",
+  "j_values": [
+    0.0,
+    0.5,
+    1.0,
+    1.5,
+    2.0,
+    2.5,
+    3.0,
+    3.5,
+    4.0
+  ],
+  "beta_values_radian": [
+    -6.283185307179586,
+    -1.13,
+    0.0,
+    0.17,
+    1.5707963267948966,
+    2.19,
+    3.141592653589793,
+    6.283185307179586,
+    12.566370614359172
+  ],
+  "composition_pairs_radian": [
+    [
+      0.2,
+      0.3
+    ],
+    [
+      -0.7,
+      1.1
+    ],
+    [
+      1.5707963267948966,
+      1.5707963267948966
+    ],
+    [
+      3.141592653589793,
+      3.141592653589793
+    ],
+    [
+      -3.141592653589793,
+      0.2
+    ],
+    [
+      6.283185307179586,
+      0.4
+    ]
+  ],
+  "check_counts": {
+    "commutator_Jz_Jplus": 9,
+    "commutator_Jplus_Jminus": 9,
+    "Casimir": 9,
+    "factorial_vs_matrix_exponential": 81,
+    "orthogonality": 81,
+    "inverse": 81,
+    "highest_weight_binomial": 81,
+    "probability_normalization": 81,
+    "highest_weight_mean": 81,
+    "highest_weight_variance": 81,
+    "same_axis_composition": 54,
+    "pi_rotation": 9,
+    "two_pi_rotation": 9,
+    "four_pi_rotation": 9
+  },
+  "maximum_absolute_errors": {
+    "commutator_Jz_Jplus": 8.881784197001252e-16,
+    "commutator_Jplus_Jminus": 7.105427357601002e-15,
+    "Casimir": 3.552713678800501e-15,
+    "factorial_vs_matrix_exponential": 9.251084779721506e-15,
+    "orthogonality": 1.3322676295501878e-15,
+    "inverse": 0,
+    "highest_weight_binomial": 2.220446049250313e-16,
+    "probability_normalization": 1.1102230246251565e-15,
+    "highest_weight_mean": 2.220446049250313e-15,
+    "highest_weight_variance": 7.237266341775239e-15,
+    "same_axis_composition": 1.1102230246251565e-15,
+    "pi_rotation": 2.7383934913210134e-16,
+    "two_pi_rotation": 5.476786982642027e-16,
+    "four_pi_rotation": 1.0953573965284054e-15
+  },
+  "total_checks": 675,
+  "j_3_over_2_beta_pi_over_2": {
+    "d_matrix": [
+      [
+        0.35355339059327384,
+        -0.6123724356957947,
+        0.6123724356957947,
+        -0.35355339059327384
+      ],
+      [
+        0.6123724356957947,
+        -0.35355339059327384,
+        -0.35355339059327384,
+        0.6123724356957947
+      ],
+      [
+        0.6123724356957947,
+        0.35355339059327384,
+        -0.35355339059327384,
+        -0.6123724356957947
+      ],
+      [
+        0.35355339059327384,
+        0.6123724356957947,
+        0.6123724356957947,
+        0.35355339059327384
+      ]
+    ],
+    "highest_weight_probabilities": [
+      0.12500000000000006,
+      0.3750000000000002,
+      0.3750000000000002,
+      0.12500000000000006
+    ],
+    "mean_m": 0,
+    "variance_m": 0.75
+  },
+  "scope": "Finite numerical examples support, but do not replace, the algebraic proof; factorial sums are not recommended for large j due to cancellation."
+}

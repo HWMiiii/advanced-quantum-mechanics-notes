@@ -1,0 +1,171 @@
+{
+  "status": "PASS",
+  "section": "3.4",
+  "seed": 20261023,
+  "meaning": "由教材与补充页公式独立复算；不代表实验数据，也不代表学习者已掌握。",
+  "checks": {
+    "trace_formula": {
+      "max_abs_error": 4.464560109741381e-16,
+      "tolerance": 1e-11,
+      "passed": true
+    },
+    "normalization": {
+      "max_abs_error": 4.44377373890094e-16,
+      "tolerance": 1e-11,
+      "passed": true
+    },
+    "hermiticity": {
+      "max_abs_error": 6.206335383118183e-17,
+      "tolerance": 1e-11,
+      "passed": true
+    },
+    "purity_overlap": {
+      "max_abs_error": 3.3306690738754696e-16,
+      "tolerance": 1e-11,
+      "passed": true
+    },
+    "positivity_violation": {
+      "max_abs_error": 0.0,
+      "tolerance": 1e-11,
+      "passed": true
+    },
+    "purity_bound_violation": {
+      "max_abs_error": 0.0,
+      "tolerance": 1e-11,
+      "passed": true
+    },
+    "unitary_spectrum": {
+      "max_abs_error": 9.992007221626409e-16,
+      "tolerance": 1e-11,
+      "passed": true
+    },
+    "unitary_entropy": {
+      "max_abs_error": 1.2212453270876722e-15,
+      "tolerance": 1e-11,
+      "passed": true
+    },
+    "unitary_purity": {
+      "max_abs_error": 1.7211530517085207e-15,
+      "tolerance": 1e-11,
+      "passed": true
+    },
+    "von_neumann_sign": {
+      "max_abs_error": 2.4296816154375013e-09,
+      "tolerance": 5e-08,
+      "passed": true
+    },
+    "textbook_75_25_matrix": {
+      "max_abs_error": 2.7755575615628914e-17,
+      "tolerance": 1e-11,
+      "passed": true
+    },
+    "textbook_75_25_spectral_decomposition": {
+      "max_abs_error": 1.1102230246251565e-16,
+      "tolerance": 1e-11,
+      "passed": true
+    },
+    "textbook_75_25_purity": {
+      "max_abs_error": 0.0,
+      "tolerance": 1e-11,
+      "passed": true
+    },
+    "textbook_75_25_bloch": {
+      "max_abs_error": 5.551115123125783e-17,
+      "tolerance": 1e-11,
+      "passed": true
+    },
+    "nonorthogonal_overlap_formula": {
+      "max_abs_error": 0.0,
+      "tolerance": 1e-11,
+      "passed": true
+    },
+    "bloch_reconstruction_and_purity": {
+      "max_abs_error": 3.3306690738754696e-16,
+      "tolerance": 1e-11,
+      "passed": true
+    },
+    "bloch_projector_probability": {
+      "max_abs_error": 2.220717083251841e-16,
+      "tolerance": 1e-11,
+      "passed": true
+    },
+    "gibbs_entropy_identity": {
+      "max_abs_error": 3.1086244689504383e-15,
+      "tolerance": 1e-11,
+      "passed": true
+    },
+    "relative_entropy_negativity": {
+      "max_abs_error": 0.0,
+      "tolerance": 1e-11,
+      "passed": true
+    },
+    "full_period_time_average": {
+      "max_abs_error": 0.0,
+      "tolerance": 1e-11,
+      "passed": true
+    },
+    "gaussian_normalization": {
+      "max_abs_error": 0.0,
+      "tolerance": 1e-11,
+      "passed": true
+    },
+    "gaussian_overlap": {
+      "max_abs_error": 0.0,
+      "tolerance": 1e-11,
+      "passed": true
+    },
+    "gaussian_pure_momentum": {
+      "max_abs_error": 2.220446049250313e-16,
+      "tolerance": 1e-11,
+      "passed": true
+    },
+    "gaussian_mixed_momentum": {
+      "max_abs_error": 2.7755575615628914e-17,
+      "tolerance": 1e-11,
+      "passed": true
+    },
+    "gaussian_mixture_purity": {
+      "max_abs_error": 0.0,
+      "tolerance": 1e-11,
+      "passed": true
+    },
+    "thermal_bloch_polarization": {
+      "max_abs_error": 1.3183898417423734e-16,
+      "tolerance": 1e-11,
+      "passed": true
+    },
+    "thermal_spin_entropy": {
+      "max_abs_error": 8.881784197001252e-16,
+      "tolerance": 1e-11,
+      "passed": true
+    },
+    "finite_field_differential_response": {
+      "max_abs_error": 3.336519949215244e-11,
+      "tolerance": 1e-09,
+      "passed": true
+    },
+    "oscillator_high_temperature_beta_U": {
+      "max_abs_error": 8.333333201271387e-08,
+      "tolerance": 1e-07,
+      "passed": true
+    }
+  },
+  "examples": {
+    "random_ensemble_samples": 100,
+    "random_bloch_and_gibbs_samples": 100,
+    "textbook_75_25_spectral_weights": [
+      0.8952847075210475,
+      0.10471529247895256
+    ],
+    "textbook_75_25_purity": 0.8125,
+    "textbook_75_25_von_neumann_entropy": 0.33532169342131884,
+    "gibbs_relative_entropy_minimum_in_samples": 0.238239845467888,
+    "gaussian_example": {
+      "s": 0.8,
+      "k": 1.1,
+      "hbar": 1,
+      "pure_momentum": 1.0999999999999999,
+      "mixed_momentum": 0.0
+    }
+  }
+}

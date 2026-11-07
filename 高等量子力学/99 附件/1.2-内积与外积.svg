@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="570" viewBox="0 0 1080 570" role="img" aria-labelledby="title desc">
+  <title id="title">内积与外积的结果类型</title>
+  <desc id="desc">固定正交归一基底后，左矢是行向量，右矢是列向量。行乘列得到一个复数，列乘行得到一个矩阵，表示外积算符。</desc>
+  <rect width="1080" height="570" rx="12" fill="#ffffff"/>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#64748b"/></marker>
+  </defs>
+  <style>
+    text{font-family:"Microsoft YaHei","Cambria Math",sans-serif;fill:#16293b;font-size:23px}
+    .heading{font-size:28px;font-weight:600}
+    .secondary{font-size:19px;fill:#536275}
+    .formula{font-family:"Cambria Math","Microsoft YaHei",sans-serif;font-size:28px}
+    .bra{fill:#dcecfb;stroke:#2671aa;stroke-width:1}
+    .ket{fill:#f9e8d5;stroke:#a86027;stroke-width:1}
+    .result{fill:#e7edf3;stroke:#64748b;stroke-width:1}
+    .arrow{stroke:#64748b;stroke-width:2;marker-end:url(#arrow)}
+  </style>
+  <text class="heading" x="40" y="47">先看对象的排列，再判断结果是什么</text>
+  <text class="secondary" x="40" y="83">在固定正交归一基底中：bra 是行，ket 是列。图中方格仅示意维数。</text>
+  <text x="44" y="136">内积</text>
+  <text class="formula" x="44" y="184">⟨α|β⟩</text>
+  <g transform="translate(215 155)">
+    <rect class="bra" x="0" width="30" height="30"/><rect class="bra" x="30" width="30" height="30"/><rect class="bra" x="60" width="30" height="30"/><rect class="bra" x="90" width="30" height="30"/>
+  </g>
+  <text x="270" y="126" text-anchor="middle">左矢</text>
+  <text class="secondary" x="270" y="219" text-anchor="middle">1 × N</text>
+  <text x="381" y="178" text-anchor="middle">×</text>
+  <g transform="translate(443 109)">
+    <rect class="ket" y="0" width="30" height="30"/><rect class="ket" y="30" width="30" height="30"/><rect class="ket" y="60" width="30" height="30"/><rect class="ket" y="90" width="30" height="30"/>
+  </g>
+  <text x="510" y="153">右矢</text>
+  <text class="secondary" x="510" y="187">N × 1</text>
+  <line class="arrow" x1="620" y1="170" x2="710" y2="170"/>
+  <rect class="result" x="767" y="154" width="32" height="32"/>
+  <text x="830" y="176">一个复数</text>
+  <text class="secondary" x="774" y="219">1 × 1</text>
+  <line x1="40" y1="274" x2="1035" y2="274" stroke="#d9e2ec"/>
+  <text x="44" y="324">外积</text>
+  <text class="formula" x="44" y="375">|β⟩⟨α|</text>
+  <g transform="translate(249 329)">
+    <rect class="ket" y="0" width="30" height="30"/><rect class="ket" y="30" width="30" height="30"/><rect class="ket" y="60" width="30" height="30"/><rect class="ket" y="90" width="30" height="30"/>
+  </g>
+  <text x="318" y="373">右矢</text>
+  <text class="secondary" x="318" y="407">N × 1</text>
+  <text x="405" y="398" text-anchor="middle">×</text>
+  <g transform="translate(457 375)">
+    <rect class="bra" x="0" width="30" height="30"/><rect class="bra" x="30" width="30" height="30"/><rect class="bra" x="60" width="30" height="30"/><rect class="bra" x="90" width="30" height="30"/>
+  </g>
+  <text x="517" y="345" text-anchor="middle">左矢</text>
+  <text class="secondary" x="517" y="442" text-anchor="middle">1 × N</text>
+  <line class="arrow" x1="620" y1="390" x2="710" y2="390"/>
+  <g transform="translate(745 331)">
+    <rect class="result" width="120" height="120"/>
+    <path d="M30 0V120 M60 0V120 M90 0V120 M0 30H120 M0 60H120 M0 90H120" stroke="#64748b" stroke-width="1"/>
+  </g>
+  <text x="887" y="382">矩阵</text>
+  <text class="secondary" x="887" y="414">表示算符</text>
+  <text class="secondary" x="805" y="481" text-anchor="middle">N × N</text>
+  <text class="secondary" x="44" y="536">外积作用于输入：先取与 α 的重叠，再沿 β 的方向输出。</text>
+</svg>

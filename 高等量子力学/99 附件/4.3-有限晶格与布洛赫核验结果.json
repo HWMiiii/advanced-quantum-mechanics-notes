@@ -1,0 +1,205 @@
+{
+  "status": "PASS",
+  "finite_ring": {
+    "N": 8,
+    "E0": 0.0,
+    "Delta": 1.0,
+    "a": 1.0,
+    "hbar": 1.0,
+    "T_minus_Tdag_max_abs": 1.0,
+    "trace": 0.0,
+    "bandwidth": 4.0,
+    "energy_groups": [
+      {
+        "energy": -2.0,
+        "j": [
+          0
+        ],
+        "multiplicity": 1
+      },
+      {
+        "energy": -1.4142135623730951,
+        "j": [
+          1,
+          7
+        ],
+        "multiplicity": 2
+      },
+      {
+        "energy": 0.0,
+        "j": [
+          2,
+          6
+        ],
+        "multiplicity": 2
+      },
+      {
+        "energy": 1.414213562373095,
+        "j": [
+          3,
+          5
+        ],
+        "multiplicity": 2
+      },
+      {
+        "energy": 2.0,
+        "j": [
+          4
+        ],
+        "multiplicity": 1
+      }
+    ],
+    "states_csv": "4.3-N8平移相位与能级.csv"
+  },
+  "Bloch_construction": {
+    "a": 1.0,
+    "k": 1.0471975511965976,
+    "G": 6.283185307179586,
+    "ring_length": 6.0,
+    "u_formula": "(1+0.4 exp(i G x)+0.2 exp(-2i G x))/sqrt(1.2 L)",
+    "momentum_over_hbar": [
+      1.0471975511965976,
+      7.330382858376184,
+      -11.519173063162574
+    ],
+    "momentum_weights": [
+      0.8333333333333333,
+      0.13333333333333333,
+      0.03333333333333333
+    ],
+    "mean_momentum_over_hbar": 1.4660765716752366,
+    "warning": "A constructed Bloch-form wavefunction, not a solved potential eigenfunction."
+  },
+  "checks": {
+    "T_unitarity": {
+      "max_abs_error": 0.0,
+      "tolerance": 2e-12,
+      "passed": true
+    },
+    "T_to_N": {
+      "max_abs_error": 0.0,
+      "tolerance": 2e-12,
+      "passed": true
+    },
+    "T_inverse": {
+      "max_abs_error": 0.0,
+      "tolerance": 2e-12,
+      "passed": true
+    },
+    "H_hermiticity": {
+      "max_abs_error": 0.0,
+      "tolerance": 2e-12,
+      "passed": true
+    },
+    "H_T_commutator": {
+      "max_abs_error": 0.0,
+      "tolerance": 2e-12,
+      "passed": true
+    },
+    "Fourier_orthonormality": {
+      "max_abs_error": 7.062098392711005e-16,
+      "tolerance": 2e-12,
+      "passed": true
+    },
+    "Fourier_completeness": {
+      "max_abs_error": 7.062098392711005e-16,
+      "tolerance": 2e-12,
+      "passed": true
+    },
+    "translation_eigen_residual": {
+      "max_abs_error": 1.550590514150343e-15,
+      "tolerance": 2e-12,
+      "passed": true
+    },
+    "H_eigen_residual": {
+      "max_abs_error": 2.159233940399377e-15,
+      "tolerance": 2e-12,
+      "passed": true
+    },
+    "H_diagonalization": {
+      "max_abs_error": 1.5602048698581205e-15,
+      "tolerance": 2e-12,
+      "passed": true
+    },
+    "direct_spectrum": {
+      "max_abs_error": 4.440892098500626e-16,
+      "tolerance": 2e-12,
+      "passed": true
+    },
+    "trace": {
+      "max_abs_error": 0.0,
+      "tolerance": 2e-12,
+      "passed": true
+    },
+    "sum_of_energies": {
+      "max_abs_error": 6.661338147750939e-16,
+      "tolerance": 2e-12,
+      "passed": true
+    },
+    "N8_observed_bandwidth": {
+      "max_abs_error": 0.0,
+      "tolerance": 2e-12,
+      "passed": true
+    },
+    "BZ_label_periodicity": {
+      "max_abs_error": 1.0990647210786425e-15,
+      "tolerance": 2e-12,
+      "passed": true
+    },
+    "real_hopping_plus_minus_degeneracy": {
+      "max_abs_error": 4.440892098500626e-16,
+      "tolerance": 2e-12,
+      "passed": true
+    },
+    "degeneracy_total": {
+      "max_abs_error": 0.0,
+      "tolerance": 2e-12,
+      "passed": true
+    },
+    "periodic_u": {
+      "max_abs_error": 2.0454053176691127e-15,
+      "tolerance": 2e-12,
+      "passed": true
+    },
+    "Bloch_forward_relation": {
+      "max_abs_error": 2.0897939472331947e-15,
+      "tolerance": 2e-12,
+      "passed": true
+    },
+    "active_translation_relation": {
+      "max_abs_error": 1.3543469566674573e-15,
+      "tolerance": 2e-12,
+      "passed": true
+    },
+    "periodic_density": {
+      "max_abs_error": 1.1657341758564144e-15,
+      "tolerance": 2e-12,
+      "passed": true
+    },
+    "six_cell_ring_boundary": {
+      "max_abs_error": 1.4604765287045402e-16,
+      "tolerance": 2e-12,
+      "passed": true
+    },
+    "Bloch_ring_normalization": {
+      "max_abs_error": 0.0,
+      "tolerance": 2e-12,
+      "passed": true
+    },
+    "momentum_weights": {
+      "max_abs_error": 1.1102230246251565e-16,
+      "tolerance": 2e-12,
+      "passed": true
+    },
+    "mean_momentum_vs_Fourier": {
+      "max_abs_error": 2.220446049250313e-16,
+      "tolerance": 2e-12,
+      "passed": true
+    },
+    "mean_momentum_explicit": {
+      "max_abs_error": 0.0,
+      "tolerance": 2e-12,
+      "passed": true
+    }
+  }
+}
