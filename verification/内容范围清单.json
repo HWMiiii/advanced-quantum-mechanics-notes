@@ -1,0 +1,1414 @@
+{
+  "appId": "cn.hanweimi.aqm.reader",
+  "appVersion": "1.0.0",
+  "appEdition": "HWM-AQM-APP-20261116-v1",
+  "contentEdition": "HWM-AQM-WEB-20261116-v1",
+  "credit": "憨味米和 Chat GPT 制作",
+  "stats": {
+    "pages": 214,
+    "chapters": 60,
+    "bookChapters": 8,
+    "images": 179,
+    "attachments": 303,
+    "formulas": 39861,
+    "uniqueFormulas": 23316
+  },
+  "categories": {
+    "项目": 16,
+    "讲解内容": 60,
+    "笔记": 60,
+    "补充": 3,
+    "配套习题": 75
+  },
+  "notes": [
+    {
+      "title": "高等量子力学",
+      "category": "项目",
+      "section": "项目",
+      "sourceSha256": "46d9466b319c51c603c8c8cf410db78e13f4a05b95d871372020c0212dfe7817"
+    },
+    {
+      "title": "1.1 斯特恩—盖拉赫实验",
+      "category": "讲解内容",
+      "section": "1.1",
+      "sourceSha256": "6237c5d9e016bbd321067db6fb15a7bab76371ee44971971f017f9f05ba93370"
+    },
+    {
+      "title": "1.1 补充推导：投影、相位与一般方向",
+      "category": "笔记",
+      "section": "1.1",
+      "sourceSha256": "a2d2fc24f2c2a3e1a1b05add7d096a677d1e0f288f634bdabe8dbf3c0b454280"
+    },
+    {
+      "title": "1.2 右矢、左矢和算符",
+      "category": "讲解内容",
+      "section": "1.2",
+      "sourceSha256": "1c6a3468acd3464adbd6c4ec3d4014a86180105ea3f2e5de2446ddbac4538e22"
+    },
+    {
+      "title": "1.2 计算示例与易错辨析",
+      "category": "笔记",
+      "section": "1.2",
+      "sourceSha256": "4af3ca77b0922d724c326834dcaa4ced887417d5012794fa0198211d87d83e29"
+    },
+    {
+      "title": "1.3 基右矢和矩阵表示",
+      "category": "讲解内容",
+      "section": "1.3",
+      "sourceSha256": "984eb028a6c66f2e3b6c72e7ed934051f7d53f1791e556265e7592a10f859ff3"
+    },
+    {
+      "title": "1.3 计算示例与表象辨析",
+      "category": "笔记",
+      "section": "1.3",
+      "sourceSha256": "e7621232703ffb7a5b15a8a2dfbc20b6ee33760bc978a3e23f351aa480021e92"
+    },
+    {
+      "title": "1.4 测量、可观测量和不确定性关系",
+      "category": "讲解内容",
+      "section": "1.4",
+      "sourceSha256": "19cf7b8a5a5f31684d9f43fff05f9f445f33f4fe3d3bf7a4d73992874a309ab0"
+    },
+    {
+      "title": "1.4 计算示例与概念辨析",
+      "category": "笔记",
+      "section": "1.4",
+      "sourceSha256": "6559037f72ad0a236a79e66560e4bbc168e993680e48fcadc844d655dfb3c657"
+    },
+    {
+      "title": "1.5 基的改变",
+      "category": "讲解内容",
+      "section": "1.5",
+      "sourceSha256": "d03d85ed7c01d62eb9d5ff0e1f75257bf451bcc6bdf4ad42eb6719cb0c799555"
+    },
+    {
+      "title": "1.5 计算示例与概念辨析",
+      "category": "笔记",
+      "section": "1.5",
+      "sourceSha256": "4c92feccf0bf186c05531be1988b0f202f8bf2c4aac2318ddee2ceb2c78bee56"
+    },
+    {
+      "title": "1.6 位置、动量和平移",
+      "category": "讲解内容",
+      "section": "1.6",
+      "sourceSha256": "bff97ec7265afcedf8fd45cdabda81b249698e89738b992ee9addd8be2528f39"
+    },
+    {
+      "title": "1.6 计算示例与概念辨析",
+      "category": "笔记",
+      "section": "1.6",
+      "sourceSha256": "e577792dda11eb573860ed17751813feeae9266f04efe6a4d890cc5faf2df9fa"
+    },
+    {
+      "title": "1.7 位置和动量空间中的波函数",
+      "category": "讲解内容",
+      "section": "1.7",
+      "sourceSha256": "5129c05c5137458bbdd39615b954265089b5a8870f753f5e9ceaa24e88d21803"
+    },
+    {
+      "title": "1.7 计算示例与概念辨析",
+      "category": "笔记",
+      "section": "1.7",
+      "sourceSha256": "eaa70518d5dc6b1960cdd759f53949e41de89d95a1242dfc99cb22a23c89756d"
+    },
+    {
+      "title": "2.1 时间演化和薛定谔方程",
+      "category": "讲解内容",
+      "section": "2.1",
+      "sourceSha256": "52414e24ccf483c86301bc92cffd4d492a6cf812fa4e74f0009ade1c62517e0b"
+    },
+    {
+      "title": "2.1 计算示例与概念辨析",
+      "category": "笔记",
+      "section": "2.1",
+      "sourceSha256": "fd670346a1de18800c41c30b397e9673603d06dd1d7d5faf78b5fdd7869f4e08"
+    },
+    {
+      "title": "2.2 薛定谔绘景与海森伯绘景",
+      "category": "讲解内容",
+      "section": "2.2",
+      "sourceSha256": "d5a530ce90a251475c4d45cb9d24a7467a338aa6e3bca7104681b681a95391e6"
+    },
+    {
+      "title": "2.2 计算示例与概念辨析",
+      "category": "笔记",
+      "section": "2.2",
+      "sourceSha256": "b6fd80a68af11a376b812910cc394550fe56f4a505e42c088a81698cbb3e3b35"
+    },
+    {
+      "title": "2.3 简谐振子",
+      "category": "讲解内容",
+      "section": "2.3",
+      "sourceSha256": "f14a42951d9a0570871e09a37ce7a0bdbd9ed121d1a8c8968a8dbba58df75e68"
+    },
+    {
+      "title": "2.3 计算示例与概念辨析",
+      "category": "笔记",
+      "section": "2.3",
+      "sourceSha256": "4863eceb5f9f3ced36656b94a8abf9f80aff57956bbcde4d6831806c8be54f66"
+    },
+    {
+      "title": "2.4 薛定谔波动方程",
+      "category": "讲解内容",
+      "section": "2.4",
+      "sourceSha256": "c1732f0f56fa2d01429ee9c6a1e3395a6ec5b5d96190a1c9faa16d543f3ac3d5"
+    },
+    {
+      "title": "2.4 计算示例与概念辨析",
+      "category": "笔记",
+      "section": "2.4",
+      "sourceSha256": "4df81870dc0757d8156ed6123f3ff02f316c464bfdf14cdc39253445615fe7f7"
+    },
+    {
+      "title": "2.5 薛定谔波动方程的基本解",
+      "category": "讲解内容",
+      "section": "2.5",
+      "sourceSha256": "017b3646c3bbf64f52385aefd912e461beebcc790114e79095d0c118bd4d7357"
+    },
+    {
+      "title": "2.5 计算示例与概念辨析",
+      "category": "笔记",
+      "section": "2.5",
+      "sourceSha256": "9a16f60a3bde030febb14d873264eb19f01b4c04cbeb8174334eed72ffc7a409"
+    },
+    {
+      "title": "2.6 传播子和费曼路径积分",
+      "category": "讲解内容",
+      "section": "2.6",
+      "sourceSha256": "da5f8040d8ca6af9a8f31b54060f89dacb63904eda4787e802c5ac4c8aad51da"
+    },
+    {
+      "title": "2.6 计算示例与概念辨析",
+      "category": "笔记",
+      "section": "2.6",
+      "sourceSha256": "4a58fc54e10bc65f863abdb5b27543ef1ba31b635c820f6b2bc86daf02b76714"
+    },
+    {
+      "title": "2.7 势和规范变换",
+      "category": "讲解内容",
+      "section": "2.7",
+      "sourceSha256": "082725a518bdbaaadf7df0bef5050e098765fab2de402c4b07ac42f445f62b24"
+    },
+    {
+      "title": "2.7 计算示例与概念辨析",
+      "category": "笔记",
+      "section": "2.7",
+      "sourceSha256": "24c341be02a3e755f782261019a33c3f6a18f87f0a5f651b71aed5d9ffd0b674"
+    },
+    {
+      "title": "3.1 旋转和角动量对易关系",
+      "category": "讲解内容",
+      "section": "3.1",
+      "sourceSha256": "8056240a0503039a000fbab2fb8d0032f1c727fdd7b1299dff25998ed0713e9e"
+    },
+    {
+      "title": "3.1 计算示例与概念辨析",
+      "category": "笔记",
+      "section": "3.1",
+      "sourceSha256": "8658adec4aa54db44e14344804b4d56819007063bfe7a11babadfe9cdccf781c"
+    },
+    {
+      "title": "3.10 自旋关联测量和贝尔不等式",
+      "category": "讲解内容",
+      "section": "3.10",
+      "sourceSha256": "0f15bcec85102f8bb55df2b24c9e80ffd0e7d642bf562cc36bcb61baead9bfd3"
+    },
+    {
+      "title": "3.10 计算示例与概念辨析",
+      "category": "笔记",
+      "section": "3.10",
+      "sourceSha256": "2546e720d60b94fe8047a0ebba913df2341dbb72212b9693120991b0aa852626"
+    },
+    {
+      "title": "3.11 张量算符",
+      "category": "讲解内容",
+      "section": "3.11",
+      "sourceSha256": "ef2ebd9a7dbab87550d11be4a6f352b654d168bf1d40a6f546e759585b32866a"
+    },
+    {
+      "title": "3.11 计算示例与概念辨析",
+      "category": "笔记",
+      "section": "3.11",
+      "sourceSha256": "15d29ac42e19621903f5123234c28243a347dc0cbbcfe50270e61b6c0062b9d1"
+    },
+    {
+      "title": "3.2 自旋1/2系统和有限旋转",
+      "category": "讲解内容",
+      "section": "3.2",
+      "sourceSha256": "d985d7cd3850c13f0606f25d2b688c9c797e3bfbcfb8f9543dabe63b4799108f"
+    },
+    {
+      "title": "3.2 计算示例与概念辨析",
+      "category": "笔记",
+      "section": "3.2",
+      "sourceSha256": "3be2bd6b7efd205a9a60ae4cfc70b14c3824ec207364a16a4f914b7524599729"
+    },
+    {
+      "title": "3.3 SO(3)、SU(2)和欧拉旋转",
+      "category": "讲解内容",
+      "section": "3.3",
+      "sourceSha256": "9045a7ccb6e7c07751d822ece3aa08debe6b3cd8052404a04ba2ec065d93af04"
+    },
+    {
+      "title": "3.3 计算示例与概念辨析",
+      "category": "笔记",
+      "section": "3.3",
+      "sourceSha256": "e96a5ebd3884b8cb8520ea71a3df2c978af9202ad3ff5943a7ea3b3941e8d81e"
+    },
+    {
+      "title": "3.4 密度算符及纯系综与混合系综",
+      "category": "讲解内容",
+      "section": "3.4",
+      "sourceSha256": "b9f746d4c11010f087eadb20164a0354f55039a7162c5e336893bd48c22e2053"
+    },
+    {
+      "title": "3.4 计算示例与概念辨析",
+      "category": "笔记",
+      "section": "3.4",
+      "sourceSha256": "7d170dd48797197dcbd720509ab7e1b3e08797a41ba14ba223bc7b7974b29751"
+    },
+    {
+      "title": "3.5 角动量的本征值和本征态",
+      "category": "讲解内容",
+      "section": "3.5",
+      "sourceSha256": "a75d0c7ebfbdf3c93b9de12b2e5c7a435e7f4c4e41bd0231df5ed4f4b8974ac9"
+    },
+    {
+      "title": "3.5 计算示例与概念辨析",
+      "category": "笔记",
+      "section": "3.5",
+      "sourceSha256": "432c1af3b99aebc31a63b17cdae8ddaeb0e03c041ab5033b3d0b2963f0cc7b90"
+    },
+    {
+      "title": "3.6 计算示例与概念辨析",
+      "category": "笔记",
+      "section": "3.6",
+      "sourceSha256": "ab4b1edd9c90c45a43209b7e473bb513333689c5b012502631b2163581d2b63e"
+    },
+    {
+      "title": "3.6 轨道角动量",
+      "category": "讲解内容",
+      "section": "3.6",
+      "sourceSha256": "646c07f411283c558e34a9e7752ad9b4d37e54bbe0ee098ee9b5a3237c37339e"
+    },
+    {
+      "title": "3.7 中心势的薛定谔方程",
+      "category": "讲解内容",
+      "section": "3.7",
+      "sourceSha256": "64ca0c9cd4ab2261a42aa6ffceb25f64a35de6bfe8b617838632bf1fbf927140"
+    },
+    {
+      "title": "3.7 计算示例与概念辨析",
+      "category": "笔记",
+      "section": "3.7",
+      "sourceSha256": "ea41303c383c1de4618902f7f4337a1ba7e7701965dbe802f857d21fe4b3bdde"
+    },
+    {
+      "title": "3.8 角动量的叠加",
+      "category": "讲解内容",
+      "section": "3.8",
+      "sourceSha256": "d8b984a8e37e815a5cbf6c205f9cbeced3027391aecc5beda20d20db9d49fd71"
+    },
+    {
+      "title": "3.8 计算示例与概念辨析",
+      "category": "笔记",
+      "section": "3.8",
+      "sourceSha256": "2d1ac90d6239989ab5206b101d8ecc976959d1cb357b612f2092b24258e3ab0f"
+    },
+    {
+      "title": "3.9 角动量的施温格振子模型",
+      "category": "讲解内容",
+      "section": "3.9",
+      "sourceSha256": "3d5e57c6c48b112e9a05bdb53f8d5397beb7a4d07afaf6030c179e09c03b215f"
+    },
+    {
+      "title": "3.9 计算示例与概念辨析",
+      "category": "笔记",
+      "section": "3.9",
+      "sourceSha256": "ba5c17b712059396387aba122ca367a9046b2414e3a5020b667ac5200d760d1e"
+    },
+    {
+      "title": "4.1 对称性、守恒定律和简并性",
+      "category": "讲解内容",
+      "section": "4.1",
+      "sourceSha256": "bccdff537eaf6b54078a156a33e3816a0872ea148b7c818448e1ff9b1ac13e9f"
+    },
+    {
+      "title": "4.1 计算示例与概念辨析",
+      "category": "笔记",
+      "section": "4.1",
+      "sourceSha256": "dc2dac82b7a64c2137f28b8501e56f6ca4d6547eaa11ab7cdb39a24b4d171f2a"
+    },
+    {
+      "title": "4.2 分立对称性、宇称或空间反演",
+      "category": "讲解内容",
+      "section": "4.2",
+      "sourceSha256": "30941097f64be783f913aa6315c9f2afadaba8642355f0bba796ea0921336153"
+    },
+    {
+      "title": "4.2 计算示例与概念辨析",
+      "category": "笔记",
+      "section": "4.2",
+      "sourceSha256": "95a02c52d4936552f71315052cd215a34d58cda9e206de6c10fc4ea866d82130"
+    },
+    {
+      "title": "4.3 晶格平移作为分立对称性",
+      "category": "讲解内容",
+      "section": "4.3",
+      "sourceSha256": "1ea6f0cad88a1765fa03cd46fadec13da0f56d783bfcc3b6639d15e4702a2cd7"
+    },
+    {
+      "title": "4.3 计算示例与概念辨析",
+      "category": "笔记",
+      "section": "4.3",
+      "sourceSha256": "eddb23f622592e43969fc4305b8cd550a7ae8dce94c083ab2b6dba145c8f9414"
+    },
+    {
+      "title": "4.4 时间反演分立对称性",
+      "category": "讲解内容",
+      "section": "4.4",
+      "sourceSha256": "6be94fe169c0adc84fdc7feab887f7160293723c9cb857f924b7d03076a4ab98"
+    },
+    {
+      "title": "4.4 计算示例与概念辨析",
+      "category": "笔记",
+      "section": "4.4",
+      "sourceSha256": "4a15733d7e341078e70571d82567eb483b76811b68d36782b87568e11f332e63"
+    },
+    {
+      "title": "5.1 时间无关微扰论：非简并情况",
+      "category": "讲解内容",
+      "section": "5.1",
+      "sourceSha256": "60d0f84e1e47a5278be90ae8a1c8900e7dd55da9fd6cd9651818f7a95d57463c"
+    },
+    {
+      "title": "5.1 计算示例与概念辨析",
+      "category": "笔记",
+      "section": "5.1",
+      "sourceSha256": "973eefbe04d283827b8e2e0af3c68513807844d8aa4bc1a435cee22019487194"
+    },
+    {
+      "title": "5.2 时间无关微扰理论：简并情况",
+      "category": "讲解内容",
+      "section": "5.2",
+      "sourceSha256": "7fbfc74402a8f67e8a633fbe16bdede55908400796204d812d2de639356663b1"
+    },
+    {
+      "title": "5.2 计算示例与概念辨析",
+      "category": "笔记",
+      "section": "5.2",
+      "sourceSha256": "608b11afd53faf26b0755b531b0bcabf0b217c4757723f927913b4731172c922"
+    },
+    {
+      "title": "5.3 类氢原子：精细结构和塞曼效应",
+      "category": "讲解内容",
+      "section": "5.3",
+      "sourceSha256": "2c6c56e2f5010450d5ee3599738f71a9f68e7f4880209cc6ca9c0e4bea1554f6"
+    },
+    {
+      "title": "5.3 计算示例与概念辨析",
+      "category": "笔记",
+      "section": "5.3",
+      "sourceSha256": "80ce7d1107428977fac1bacad335290c4fba66e2456937791e82f4d51d79eaea"
+    },
+    {
+      "title": "5.4 变分法",
+      "category": "讲解内容",
+      "section": "5.4",
+      "sourceSha256": "f896a3d73d6776612f670dffb1b005d1dc84e6e45ba44196202eaa998cf53eb6"
+    },
+    {
+      "title": "5.4 计算示例与概念辨析",
+      "category": "笔记",
+      "section": "5.4",
+      "sourceSha256": "5f18c34d76ffbb988cbc2eccbde63d2735aee7d8ee016952c8498dfb4c7aa1b2"
+    },
+    {
+      "title": "5.5 含时势：相互作用绘景",
+      "category": "讲解内容",
+      "section": "5.5",
+      "sourceSha256": "0ccb6bfdb570b4e0ee7fbdbb0e9c9b933184acfed385bda1383daa4430cf84d1"
+    },
+    {
+      "title": "5.5 计算示例与概念辨析",
+      "category": "笔记",
+      "section": "5.5",
+      "sourceSha256": "a45f1743b30cc1e4aeca8d71ee370af8f71c687b79d4dfbd82c16cd7e317d97c"
+    },
+    {
+      "title": "5.6 极端时间相关的哈密顿量",
+      "category": "讲解内容",
+      "section": "5.6",
+      "sourceSha256": "8e5503081b5ba12ebd6f8928bf6f9288ca27821dd695a875900de5e6186e2af5"
+    },
+    {
+      "title": "5.6 计算示例与概念辨析",
+      "category": "笔记",
+      "section": "5.6",
+      "sourceSha256": "1ac085fc1ea2e975e7a5c5c5b8b5ea7d6063a01761d98c079f1837fc50c08421"
+    },
+    {
+      "title": "5.7 时间相关微扰理论",
+      "category": "讲解内容",
+      "section": "5.7",
+      "sourceSha256": "f55a2e60416968b7708e2983f7f99fe0d49c95ae04d7b761be1b0ca11887b09c"
+    },
+    {
+      "title": "5.7 计算示例与概念辨析",
+      "category": "笔记",
+      "section": "5.7",
+      "sourceSha256": "af64e84a8d9c0040cce1797b543837ceb027024b4f84806be05b0d930fc7efd9"
+    },
+    {
+      "title": "5.7 黄金法则与谐波跃迁",
+      "category": "补充",
+      "section": "5.7",
+      "sourceSha256": "f7edcac109db17b70967de1a80175ef0eef172c3432e9b25728489383a8ea556"
+    },
+    {
+      "title": "5.8 与经典辐射场相互作用的应用",
+      "category": "讲解内容",
+      "section": "5.8",
+      "sourceSha256": "df0d65e4b44fd7c291c37b33812e02ba55756a4ad6fdd78121e8b833f5dfda2f"
+    },
+    {
+      "title": "5.8 光电效应与自发辐射",
+      "category": "补充",
+      "section": "5.8",
+      "sourceSha256": "cc454c31f85a87a98e8a38c4773d7c418d522b8978056c0b0c460acbe3afcce6"
+    },
+    {
+      "title": "5.8 计算示例与概念辨析",
+      "category": "笔记",
+      "section": "5.8",
+      "sourceSha256": "35e99fed6ecca6819d6e84a04c101e9e7b30f64822b71fa247d52a65833958ea"
+    },
+    {
+      "title": "5.9 能量分母、线型与寿命",
+      "category": "补充",
+      "section": "5.9",
+      "sourceSha256": "5798ac3e1c62f952f3ad9d67418bbb0f628a341e46935d2ec2ccfc98721533df"
+    },
+    {
+      "title": "5.9 能量移动和衰变宽度",
+      "category": "讲解内容",
+      "section": "5.9",
+      "sourceSha256": "994022ab0e5acbf08ad194beddda5161b2dde4022eabb3ebe2ba2cb8af93dda3"
+    },
+    {
+      "title": "5.9 计算示例与概念辨析",
+      "category": "笔记",
+      "section": "5.9",
+      "sourceSha256": "276511db168c6955667a5e6e56363afc867ee8c0b4f5ef122e7216a24b53bd49"
+    },
+    {
+      "title": "6.1 时间相关微扰的散射",
+      "category": "讲解内容",
+      "section": "6.1",
+      "sourceSha256": "80fd36a7d312d0a0796d6a2c823853043450e64807dda912b5e614c6cde59c4a"
+    },
+    {
+      "title": "6.1 计算示例与概念辨析",
+      "category": "笔记",
+      "section": "6.1",
+      "sourceSha256": "104f931f99f9ad2f02cf1ddd2ebc5fce645e566381923da501fd2b6da02a74ef"
+    },
+    {
+      "title": "6.2 散射振幅",
+      "category": "讲解内容",
+      "section": "6.2",
+      "sourceSha256": "5d5c068f18da54f5d9a9d73e187ab4e26e87027f255e86096aec524cb8843922"
+    },
+    {
+      "title": "6.2 计算示例与概念辨析",
+      "category": "笔记",
+      "section": "6.2",
+      "sourceSha256": "7dd460bc9978c3150498a23d9ea820f63cf094539be542668a63d8b54c01c15f"
+    },
+    {
+      "title": "6.3 玻恩近似",
+      "category": "讲解内容",
+      "section": "6.3",
+      "sourceSha256": "f78712ad064c5c2f92667b1a21dda5f9ba8ac21e470d3ed5b323eed61e545fba"
+    },
+    {
+      "title": "6.3 计算示例与概念辨析",
+      "category": "笔记",
+      "section": "6.3",
+      "sourceSha256": "3684c3ec2647086fb0c9945b00863cc3cc7483590f5c8818195be654b783153c"
+    },
+    {
+      "title": "6.4 相移和分波",
+      "category": "讲解内容",
+      "section": "6.4",
+      "sourceSha256": "f590a98a234f482742864ce006952900d5c303ee5e01bb7efb43eb74f05a23c1"
+    },
+    {
+      "title": "6.4 计算示例与概念辨析",
+      "category": "笔记",
+      "section": "6.4",
+      "sourceSha256": "56af8bdeda2d0caff9b18bc4c04bffa64ffe045d823f5815de3d49f7686a13c3"
+    },
+    {
+      "title": "6.5 程函近似",
+      "category": "讲解内容",
+      "section": "6.5",
+      "sourceSha256": "03bd8a3caf72282bf6f01773faacdab6756f5b36f9fc4bc28080746250f85968"
+    },
+    {
+      "title": "6.5 计算示例与概念辨析",
+      "category": "笔记",
+      "section": "6.5",
+      "sourceSha256": "001f141ec5866863c0327503e9bc1039ec9cb4a5a94e8df5d96698614c5cf6ac"
+    },
+    {
+      "title": "6.6 低能散射和束缚态",
+      "category": "讲解内容",
+      "section": "6.6",
+      "sourceSha256": "0a570bab31dc3c1fc81fff5d8643386b8f2cee63ff3a74fd94b15b8bef0cacb0"
+    },
+    {
+      "title": "6.6 计算示例与概念辨析",
+      "category": "笔记",
+      "section": "6.6",
+      "sourceSha256": "6f88b18f38f27718f11a5e367b188d836a30cad33efd0fc4fc851d73e26dd2ea"
+    },
+    {
+      "title": "6.7 共振散射",
+      "category": "讲解内容",
+      "section": "6.7",
+      "sourceSha256": "9e02c654b17b40a920f5a29b6865b3750fb0ac9bfd55323c1716e96c91df1eb2"
+    },
+    {
+      "title": "6.7 计算示例与概念辨析",
+      "category": "笔记",
+      "section": "6.7",
+      "sourceSha256": "ca0a85318b8d3c0b50678474c39f9f37d3051d972383f38c04985aee95efe31f"
+    },
+    {
+      "title": "6.8 在散射中关于对称性的思考",
+      "category": "讲解内容",
+      "section": "6.8",
+      "sourceSha256": "e4f47644f163b4b3fe83addb9af4a41c140751f20fd5abc1a6c7459f949b5a3d"
+    },
+    {
+      "title": "6.8 计算示例与概念辨析",
+      "category": "笔记",
+      "section": "6.8",
+      "sourceSha256": "6ca93fc096b5bf04a0ad83ce3624908507358619992f3292cdeffdd988d17ff1"
+    },
+    {
+      "title": "6.9 计算示例与概念辨析",
+      "category": "笔记",
+      "section": "6.9",
+      "sourceSha256": "521f1b0eef3bcc834841dd665c91f1e0ccc7199a50e3776bae798c7d76e980cb"
+    },
+    {
+      "title": "6.9 非弹性电子–原子散射",
+      "category": "讲解内容",
+      "section": "6.9",
+      "sourceSha256": "bc113b9ea74afa7d82c98a7453852617430cd8de5213987e955340ef02d2965e"
+    },
+    {
+      "title": "7.1 置换对称性",
+      "category": "讲解内容",
+      "section": "7.1",
+      "sourceSha256": "aa630becd583a368acc02ddd534a3697846b20ee5f706af6cd9c635a4e481666"
+    },
+    {
+      "title": "7.1 计算示例与概念辨析",
+      "category": "笔记",
+      "section": "7.1",
+      "sourceSha256": "a9db11fd7fc212d987e91a917c49fca3d54f3aa3e91fb52b4b53c9c970ca3e0e"
+    },
+    {
+      "title": "7.2 对称化假定",
+      "category": "讲解内容",
+      "section": "7.2",
+      "sourceSha256": "ff440fe342b8388466dd0a16f1b60e223c29bcf5086029edb7fc0e048e67579d"
+    },
+    {
+      "title": "7.2 计算示例与概念辨析",
+      "category": "笔记",
+      "section": "7.2",
+      "sourceSha256": "bed32d552ebd3f6aff09621d437785b2fbecf8684092001db2211ef8deb4e236"
+    },
+    {
+      "title": "7.3 双电子系统",
+      "category": "讲解内容",
+      "section": "7.3",
+      "sourceSha256": "db2c4f987cbd4621b366c50aec1557c312591a25242b417e2a7a0ed1f687e26a"
+    },
+    {
+      "title": "7.3 计算示例与概念辨析",
+      "category": "笔记",
+      "section": "7.3",
+      "sourceSha256": "ff78ed457bc0c6b5b6490193530023999fa388b71290d693dad28817cf9e82c8"
+    },
+    {
+      "title": "7.4 氦原子",
+      "category": "讲解内容",
+      "section": "7.4",
+      "sourceSha256": "47ce10daa7ae297e39bda69c7baedd675078b6282667ad97221d0a46d7a08c31"
+    },
+    {
+      "title": "7.4 计算示例与概念辨析",
+      "category": "笔记",
+      "section": "7.4",
+      "sourceSha256": "370e53c20937be7cbc39e6975d633b530c798a748149b2d56f0bf403459c3901"
+    },
+    {
+      "title": "7.5 多粒子态",
+      "category": "讲解内容",
+      "section": "7.5",
+      "sourceSha256": "9637676941d988e2cb35943c1008a3f93b6f174dc17584d9753ea293b922a150"
+    },
+    {
+      "title": "7.5 计算示例与概念辨析",
+      "category": "笔记",
+      "section": "7.5",
+      "sourceSha256": "8a4f3c39ce8c3fb2c31994edad98d608c2852dd2de4873132d4d29469ce303b5"
+    },
+    {
+      "title": "7.6 密度泛函理论",
+      "category": "讲解内容",
+      "section": "7.6",
+      "sourceSha256": "3a0ce419e96782245d0c67732eb73f64f2a2e8388bddb658a108f04de96bcca3"
+    },
+    {
+      "title": "7.6 计算示例与概念辨析",
+      "category": "笔记",
+      "section": "7.6",
+      "sourceSha256": "21b13cdc3bd86c1be580eedfb4e8404980a7034b9d2996a05f274c70c3a93348"
+    },
+    {
+      "title": "7.7 计算示例与概念辨析",
+      "category": "笔记",
+      "section": "7.7",
+      "sourceSha256": "db59dd1491200a1132da951114e6b4ec6565df8eb29104e924bd1aeeb6dee40c"
+    },
+    {
+      "title": "7.7 量子场",
+      "category": "讲解内容",
+      "section": "7.7",
+      "sourceSha256": "39f8a62766c42f982ca01d208bb6eb1e92fbf68aeb3efc1e192498bb6ce131ec"
+    },
+    {
+      "title": "7.8 电磁场的量子化",
+      "category": "讲解内容",
+      "section": "7.8",
+      "sourceSha256": "e8bda1916174f43d8e184559ba704066d6ec030ce46b306690b284f1ed76d810"
+    },
+    {
+      "title": "7.8 计算示例与概念辨析",
+      "category": "笔记",
+      "section": "7.8",
+      "sourceSha256": "8e6ee469247e7a1cae3872030f9a7deeac1418f726a5f655e567d974581ef148"
+    },
+    {
+      "title": "8.1 到达相对论量子力学的途径",
+      "category": "讲解内容",
+      "section": "8.1",
+      "sourceSha256": "6c9b038d8a26707ca6076fd11ded4a81e663b411dfd1012497ce47f8d1228e1e"
+    },
+    {
+      "title": "8.1 计算示例与概念辨析",
+      "category": "笔记",
+      "section": "8.1",
+      "sourceSha256": "a6b2e2b25f6d4d085a36ceb02e5d8ffe2dbb87851d578bbd78c2e0cecf647c34"
+    },
+    {
+      "title": "8.2 狄拉克方程",
+      "category": "讲解内容",
+      "section": "8.2",
+      "sourceSha256": "c91f8b962cd83da70d005645969fda47fb5af4b043873997a9c20b6159240605"
+    },
+    {
+      "title": "8.2 计算示例与概念辨析",
+      "category": "笔记",
+      "section": "8.2",
+      "sourceSha256": "70d4b6033cdd185c6074eebc6a287b1466a425ad97aad65a5c347ab8cc0c9003"
+    },
+    {
+      "title": "8.3 狄拉克方程的对称性",
+      "category": "讲解内容",
+      "section": "8.3",
+      "sourceSha256": "76a472fd88d9652eb76ce6cd350ec814e80bd56026cec9f9e800c4df5a97771b"
+    },
+    {
+      "title": "8.3 计算示例与概念辨析",
+      "category": "笔记",
+      "section": "8.3",
+      "sourceSha256": "8affb4b54c584a48bdf6350baca015534bf7e5c9c7aeecff7a791d5bef6a5a14"
+    },
+    {
+      "title": "8.4 中心势问题的解",
+      "category": "讲解内容",
+      "section": "8.4",
+      "sourceSha256": "4f65c6858977ba5855a3abbdb3ea1164fee684362d37893a4285044722ea66a2"
+    },
+    {
+      "title": "8.4 计算示例与概念辨析",
+      "category": "笔记",
+      "section": "8.4",
+      "sourceSha256": "8ca64918ddb17090c83db8625f3db9a016d517c7b0e0782134730de9e4d33aaa"
+    },
+    {
+      "title": "8.5 相对论量子场论",
+      "category": "讲解内容",
+      "section": "8.5",
+      "sourceSha256": "84f52ceb7e81eb32a0dcc689c01ccf8e37486789c3b1dd7cedfe55d0a400cdbb"
+    },
+    {
+      "title": "8.5 计算示例与概念辨析",
+      "category": "笔记",
+      "section": "8.5",
+      "sourceSha256": "ad9523b30e170811340f8b0fea8e159eb866fce3edccfbcb5d12bcd6e2dedebf"
+    },
+    {
+      "title": "1.1 教材配套习题与详解",
+      "category": "配套习题",
+      "section": "1.1",
+      "sourceSha256": "97aae022078892afe279d62d46a90da9e9ade6de4814a9a0d98351b771dedb30"
+    },
+    {
+      "title": "1.2 教材配套习题与详解",
+      "category": "配套习题",
+      "section": "1.2",
+      "sourceSha256": "7fd28283090a7ff6e9fe2dd0c458faff356baf4f43c3a9f0fabbaead292d1e9b"
+    },
+    {
+      "title": "1.3 教材配套习题与详解",
+      "category": "配套习题",
+      "section": "1.3",
+      "sourceSha256": "4b42369665818e2a6ea0d1789178612fe1a687b5bad0385f76c7eb91f973d931"
+    },
+    {
+      "title": "1.4 教材配套习题与详解",
+      "category": "配套习题",
+      "section": "1.4",
+      "sourceSha256": "fd5ea6e2ca6d552d049fe3cfd06b20dbcb0351ddeea40d6b8dafd95c54203a7b"
+    },
+    {
+      "title": "1.5 教材配套习题与详解",
+      "category": "配套习题",
+      "section": "1.5",
+      "sourceSha256": "46873768b02271c8f6b4b44460f8c11b84780e24392a335a9f897cda37f95209"
+    },
+    {
+      "title": "1.6 教材配套习题与详解",
+      "category": "配套习题",
+      "section": "1.6",
+      "sourceSha256": "626d52d933ba73cda402087bc8f0ca68b3d5a6200c0899e56ec97b8696410c37"
+    },
+    {
+      "title": "1.7 教材配套习题与详解",
+      "category": "配套习题",
+      "section": "1.7",
+      "sourceSha256": "96d8c22c005e4529d19b4fd0e6f85b1bc1b966fe457a518c3e415bc3dd452489"
+    },
+    {
+      "title": "2.1 教材配套习题与详解",
+      "category": "配套习题",
+      "section": "2.1",
+      "sourceSha256": "c961741e25e4bd43719d6bb7d05570730a77fc4b9333826247508c90e5fd45f1"
+    },
+    {
+      "title": "2.2 教材配套习题与详解",
+      "category": "配套习题",
+      "section": "2.2",
+      "sourceSha256": "f9e8fb4b8287f4800b72245e7119fdcc71e6b20c9be60e7510b4933b8e7df5f5"
+    },
+    {
+      "title": "2.3 教材配套习题与详解",
+      "category": "配套习题",
+      "section": "2.3",
+      "sourceSha256": "61900a5d3acdbfe8b64aaa92fb802f3df3979c901a1e66bb1ecf23843c3f129d"
+    },
+    {
+      "title": "2.4 教材配套习题与详解",
+      "category": "配套习题",
+      "section": "2.4",
+      "sourceSha256": "483a67613b548333da1aa954830d7f1202e44d8f4ad082eb4929b6e5127c2813"
+    },
+    {
+      "title": "2.5 势阱与匹配补充习题",
+      "category": "配套习题",
+      "section": "2.5",
+      "sourceSha256": "3164fa74d72cd89ae62e1e3863b9cf339de0030a51d2ed7e4187432dbf65035a"
+    },
+    {
+      "title": "2.5 教材配套习题与详解",
+      "category": "配套习题",
+      "section": "2.5",
+      "sourceSha256": "9b4a04d5a9ae99ef81b1bdc7fb7bec1c30f01242845935409a08f2339b007d13"
+    },
+    {
+      "title": "2.6 教材配套习题与详解",
+      "category": "配套习题",
+      "section": "2.6",
+      "sourceSha256": "6bf4873604310d78fae147f212fc31f75730f72f7ab1f16336e8ce997f872e9d"
+    },
+    {
+      "title": "2.7 教材配套习题与详解",
+      "category": "配套习题",
+      "section": "2.7",
+      "sourceSha256": "66543f3a0879c3a90c9526e94bf1e1dd2bf38f1c83a401fd78d380f0f5be774b"
+    },
+    {
+      "title": "3.1 教材配套习题与详解",
+      "category": "配套习题",
+      "section": "3.1",
+      "sourceSha256": "f198d4e9e16ffe0d6e7435359dcde1f2a3bfade01e18e12fb4c889938080f3cb"
+    },
+    {
+      "title": "3.10 教材配套习题与详解",
+      "category": "配套习题",
+      "section": "3.10",
+      "sourceSha256": "e79de9e15949b42f240afb6c28426a9afe543b88c54e3c764d2a0fc793888ff9"
+    },
+    {
+      "title": "3.11 教材配套习题与详解",
+      "category": "配套习题",
+      "section": "3.11",
+      "sourceSha256": "7f413d2d83d3be65d73c1588e3fdf6ecc20885b0a6039e74ffda5fa155d93bdf"
+    },
+    {
+      "title": "3.2 教材配套习题与详解",
+      "category": "配套习题",
+      "section": "3.2",
+      "sourceSha256": "c05c09daf16bbad5f0494801225c8f6474a64edc1622656997e2cdb913d44e88"
+    },
+    {
+      "title": "3.3 教材配套习题与详解",
+      "category": "配套习题",
+      "section": "3.3",
+      "sourceSha256": "4515a46ef8806756f8683ae49b015a2a1d896fbef6358b0ce25962e95c0595e8"
+    },
+    {
+      "title": "3.4 教材配套习题与详解",
+      "category": "配套习题",
+      "section": "3.4",
+      "sourceSha256": "7eaffdde241dee61fa6569fead76181fd68ac720940de0961f81e29188e74b97"
+    },
+    {
+      "title": "3.5 教材配套习题与详解",
+      "category": "配套习题",
+      "section": "3.5",
+      "sourceSha256": "081fd15b4bea231ad18ca2b0acafa73e0160fc5cc239988e0a5beb13d390d5b6"
+    },
+    {
+      "title": "3.6 教材配套习题与详解",
+      "category": "配套习题",
+      "section": "3.6",
+      "sourceSha256": "569c5de891852898b499d5c71982945c44b4e0e2ba6b2d22a3994fd2bd00fc60"
+    },
+    {
+      "title": "3.7 振子与库仑补充习题",
+      "category": "配套习题",
+      "section": "3.7",
+      "sourceSha256": "09d03a8518302f6c372cdac6cb54051bdb7a0d9780f83fdfa20fd9f119bd76dd"
+    },
+    {
+      "title": "3.7 教材配套习题与详解",
+      "category": "配套习题",
+      "section": "3.7",
+      "sourceSha256": "6091304041457d130b7b857245965274664c01732d9057a138e33abc035b858d"
+    },
+    {
+      "title": "3.8 教材配套习题与详解",
+      "category": "配套习题",
+      "section": "3.8",
+      "sourceSha256": "269732819007eddead7ba389b8a36d4080a4ad0234d444d281f9c00b4ff039e3"
+    },
+    {
+      "title": "3.9 教材配套习题与详解",
+      "category": "配套习题",
+      "section": "3.9",
+      "sourceSha256": "5764afc0cc18adee337e4b2c5eec65d977dc5f97060b78992f75b4896a849c99"
+    },
+    {
+      "title": "4.1 教材配套习题与详解",
+      "category": "配套习题",
+      "section": "4.1",
+      "sourceSha256": "293a7f83a8ff0f9519999eba7465a0b73bc4094569c2c3e2112f001c886dff1b"
+    },
+    {
+      "title": "4.2 教材配套习题与详解",
+      "category": "配套习题",
+      "section": "4.2",
+      "sourceSha256": "29d2c1f1062285590dd000dd7c2ea4df43f3f6b8f6126eb17275b34e7daac55a"
+    },
+    {
+      "title": "4.3 教材原题核对与自测",
+      "category": "配套习题",
+      "section": "4.3",
+      "sourceSha256": "1fc079a6ba740693198ed88538316ee569fc2eee1d4d7e7fcae81ca0ee0abe4a"
+    },
+    {
+      "title": "4.4 教材配套习题与详解",
+      "category": "配套习题",
+      "section": "4.4",
+      "sourceSha256": "ae66b0555d17e9758cc3953e7324ab5a17c301bc6da63c4cdd69dfecc7507164"
+    },
+    {
+      "title": "5.1 教材配套习题与详解",
+      "category": "配套习题",
+      "section": "5.1",
+      "sourceSha256": "86b53d7a6d2bced3fbe0327ffcd28b2a649f3c23ee89047bdaaf1835531ebc7e"
+    },
+    {
+      "title": "5.2 教材配套习题与详解",
+      "category": "配套习题",
+      "section": "5.2",
+      "sourceSha256": "c043c34d28ee197c04a3b2a70a9265a172cb85e0eba829c35c112a0c6b8ce76b"
+    },
+    {
+      "title": "5.3 教材配套习题与详解",
+      "category": "配套习题",
+      "section": "5.3",
+      "sourceSha256": "474bab076cab366817e5c4a5ea2de7c6e5e9072df97ed45539897d8a9cb379e3"
+    },
+    {
+      "title": "5.4 教材配套习题与详解",
+      "category": "配套习题",
+      "section": "5.4",
+      "sourceSha256": "fc9a4a364db2f64af3ebdf3d5c3df27fe7675111945f6a5f12df143dd0c0b4c9"
+    },
+    {
+      "title": "5.5 教材配套习题与详解",
+      "category": "配套习题",
+      "section": "5.5",
+      "sourceSha256": "badf5bfe911cdfb61ff03340a7202ffd5a17d9404ef0c1ed2bea81f669403274"
+    },
+    {
+      "title": "5.5 磁共振原题5.39与5.40详解",
+      "category": "配套习题",
+      "section": "5.5",
+      "sourceSha256": "0594bbb28e01826bdde63e390eb742f0f5b77c2f7ac6aea2cc08a6f11ecd7cae"
+    },
+    {
+      "title": "5.6 几何相位原题5.43与5.44详解",
+      "category": "配套习题",
+      "section": "5.6",
+      "sourceSha256": "c35a8e0c30a72c4db0665cccc7942413ba8d927cf3120c4d883028f97248b066"
+    },
+    {
+      "title": "5.6 教材配套习题与详解",
+      "category": "配套习题",
+      "section": "5.6",
+      "sourceSha256": "aa21bb92be360006ee7ea623de03171a1588c3fb63cc77ca084fb2b4581132e9"
+    },
+    {
+      "title": "5.7 教材配套习题与详解",
+      "category": "配套习题",
+      "section": "5.7",
+      "sourceSha256": "1bab444b199c69fd2212c932b47d01937576c3a95748d7cf60ee47838c20f2b6"
+    },
+    {
+      "title": "5.7 连续谱原题5.45、5.46与5.48详解",
+      "category": "配套习题",
+      "section": "5.7",
+      "sourceSha256": "191a9c16a4b3ac5a4559a072fa6de3ba2747a1d8b72fa5ad81c35baa3ab1abc2"
+    },
+    {
+      "title": "5.8 教材配套习题与详解",
+      "category": "配套习题",
+      "section": "5.8",
+      "sourceSha256": "99e784780d794b5dc66c11308b6a5b4558dfc693eb6fa4cb26b4ac4d07415e77"
+    },
+    {
+      "title": "5.8 氢原子辐射原题5.49与5.50详解",
+      "category": "配套习题",
+      "section": "5.8",
+      "sourceSha256": "ab39dbe1d5fd21b20bf4dd05f95ce4a9d45b3974320fb3456476a68f98bcbb4c"
+    },
+    {
+      "title": "5.9 原题5.51数值实验与概率流",
+      "category": "配套习题",
+      "section": "5.9",
+      "sourceSha256": "e3584bb41366139f16e74567c6c08d0f901d9ab4e120b200e277111bad45aa9a"
+    },
+    {
+      "title": "5.9 教材配套习题与详解",
+      "category": "配套习题",
+      "section": "5.9",
+      "sourceSha256": "866c7be0307b3389d07b37d049ec47e448662d664625fdce65d4151cc40efa4d"
+    },
+    {
+      "title": "6.1 教材配套习题与详解",
+      "category": "配套习题",
+      "section": "6.1",
+      "sourceSha256": "9bcace54108d07c9a0d6727c38e77343a5cdaa55f40aad80fa6b8e5a88a90d5a"
+    },
+    {
+      "title": "6.2 教材配套习题与详解",
+      "category": "配套习题",
+      "section": "6.2",
+      "sourceSha256": "9de4e1ee25252b7c5336725e18e0da556588be4529f3a4d489ad65656a2ba0bd"
+    },
+    {
+      "title": "6.3 原题6.3钙核半径读图与核验",
+      "category": "配套习题",
+      "section": "6.3",
+      "sourceSha256": "f8fb58d2f4a4cafbf79abd7ecfb1387518ad117c1a5dafafe1084631af802a0d"
+    },
+    {
+      "title": "6.3 教材配套习题与详解",
+      "category": "配套习题",
+      "section": "6.3",
+      "sourceSha256": "5ce5f04fdf31ee4b56b94c54b7d43d2524f2848ae44314ceaf2c36b61b3bee8c"
+    },
+    {
+      "title": "6.4 原题6.10的δ壳相移与共振",
+      "category": "配套习题",
+      "section": "6.4",
+      "sourceSha256": "b08ed784f56de03a58297934b70b7ff2c780862c55bba20a1c7f583850f18794"
+    },
+    {
+      "title": "6.4 教材配套习题与详解",
+      "category": "配套习题",
+      "section": "6.4",
+      "sourceSha256": "c59ce1f688c8f71d93d82b49ef6ec6218d916d2e9402c9bdd74611bd235cf967"
+    },
+    {
+      "title": "6.5 教材配套习题与详解",
+      "category": "配套习题",
+      "section": "6.5",
+      "sourceSha256": "15b26c6b14b55397d6ec9435646e47c1ba67b79a06bfb5476cdeb1eba781410f"
+    },
+    {
+      "title": "6.6 教材配套习题与详解",
+      "category": "配套习题",
+      "section": "6.6",
+      "sourceSha256": "9178bc8ff7506cefe3cbb35340dbbdd5dadf4e56c996602a706dded37712839b"
+    },
+    {
+      "title": "6.7 原题6.13的共振散射数值复现",
+      "category": "配套习题",
+      "section": "6.7",
+      "sourceSha256": "04c3411826cbf02cf4f4de05f3932a8692dd00fb743b0247a1cfcdbb6d8b9e45"
+    },
+    {
+      "title": "6.7 教材配套习题与详解",
+      "category": "配套习题",
+      "section": "6.7",
+      "sourceSha256": "1b45482e0a0485b0e1e03db91f3cf5758891dfab1bdfb99091456aec2660b31a"
+    },
+    {
+      "title": "6.8 教材配套习题与详解",
+      "category": "配套习题",
+      "section": "6.8",
+      "sourceSha256": "275b1d7f7bcf88f172eaf55d1b03345aa98fe39ec6ab7651391f127c8d0c284d"
+    },
+    {
+      "title": "6.9 教材配套习题与详解",
+      "category": "配套习题",
+      "section": "6.9",
+      "sourceSha256": "314707a7e615686fdc0fad213610843ac62594d340612d3d09e954c65b533a8b"
+    },
+    {
+      "title": "7.1 教材配套习题与详解",
+      "category": "配套习题",
+      "section": "7.1",
+      "sourceSha256": "add071f645e609811b057a3e55d02809ec5cbf96f3288999962a66cbece3c34d"
+    },
+    {
+      "title": "7.2 原题7.1 液氦与惰性气体的超流估算",
+      "category": "配套习题",
+      "section": "7.2",
+      "sourceSha256": "90d70a20007507d426545e5d2220af22ddf30d3e1f7e8fbdc8213d8f25d85a87"
+    },
+    {
+      "title": "7.2 教材配套习题与详解",
+      "category": "配套习题",
+      "section": "7.2",
+      "sourceSha256": "c0259ed3ea166c3a7660b7297a8b7c500f0fb14cb266ff13f5f4ee496b749c92"
+    },
+    {
+      "title": "7.3 原题7.7 三粒子自旋交换态",
+      "category": "配套习题",
+      "section": "7.3",
+      "sourceSha256": "b75782146a300f6868978bf294fc372a95f70ff7f410647bea3b51b84c2d07b7"
+    },
+    {
+      "title": "7.3 教材配套习题与详解",
+      "category": "配套习题",
+      "section": "7.3",
+      "sourceSha256": "a198cabc6437c197e8315efb35843d45be76a89f75e3f51eebe59cb4d6590939"
+    },
+    {
+      "title": "7.4 教材配套习题与详解",
+      "category": "配套习题",
+      "section": "7.4",
+      "sourceSha256": "7221976d2e0a262c5951f6a655866e3aed982930344766aba61bb43da67906fa"
+    },
+    {
+      "title": "7.5 原题7.10 假想氖原子的多粒子组态",
+      "category": "配套习题",
+      "section": "7.5",
+      "sourceSha256": "414d80527dcf93443b99db2e8175fc1ac29a7a9cb1667610bbb9c4d264e16cb9"
+    },
+    {
+      "title": "7.5 原题7.8 卟啉环的十八电子组态",
+      "category": "配套习题",
+      "section": "7.5",
+      "sourceSha256": "50cbd8bdf8ffdf060f28117ffa0be5ecdf1eef745d16a1a2499c086dd1fe7f72"
+    },
+    {
+      "title": "7.5 教材配套习题与详解",
+      "category": "配套习题",
+      "section": "7.5",
+      "sourceSha256": "1b97fd1c45ee73df56cec28768fcf39e2f022f39d8c51a68eb3d4f92f0f16e13"
+    },
+    {
+      "title": "7.6 原题7.14 氦原子的密度泛函计算",
+      "category": "配套习题",
+      "section": "7.6",
+      "sourceSha256": "496f3250d844446a3628b5a05674e28a01c087e338e9bff52ae9aafbbed72e97"
+    },
+    {
+      "title": "7.6 教材配套习题与详解",
+      "category": "配套习题",
+      "section": "7.6",
+      "sourceSha256": "fc6716e0a913063c0f921ca417c45c99b3646ae987afd8168c23aa2520218bb9"
+    },
+    {
+      "title": "7.7 教材配套习题与详解",
+      "category": "配套习题",
+      "section": "7.7",
+      "sourceSha256": "07ce8342e50e93670f9df8bf0a444a765de108d1c3a4f40e530480136c236c19"
+    },
+    {
+      "title": "7.8 教材配套习题与详解",
+      "category": "配套习题",
+      "section": "7.8",
+      "sourceSha256": "085b36dd111bf90c912d197666375bf2d1a9823b7074e6ac90cfda08212776e3"
+    },
+    {
+      "title": "8.1 教材配套习题与详解",
+      "category": "配套习题",
+      "section": "8.1",
+      "sourceSha256": "c14c6983646c3c30de658c75e82e49fec8d3bf789a4f763975592a44ff34ac61"
+    },
+    {
+      "title": "8.2 教材配套习题与详解",
+      "category": "配套习题",
+      "section": "8.2",
+      "sourceSha256": "2f9711d4d29d745e4717444899f287db93c96ffd2b78860af1e7e93f572aed4e"
+    },
+    {
+      "title": "8.3 教材配套习题与详解",
+      "category": "配套习题",
+      "section": "8.3",
+      "sourceSha256": "8caf204037c6bf7095b70777435327722f3caac9d217444f5fe0b3ad523d8b7a"
+    },
+    {
+      "title": "8.4 教材配套习题与详解",
+      "category": "配套习题",
+      "section": "8.4",
+      "sourceSha256": "428e555d72c2ca1c672de7a264311a1e4439d6bdb7c97fbc8bded3c32997fe8e"
+    },
+    {
+      "title": "8.5 教材配套习题与详解",
+      "category": "配套习题",
+      "section": "8.5",
+      "sourceSha256": "f41c3a2bd60733362148616dbbf9de5966e86ec7c4e635e0e924b22d9535ace9"
+    },
+    {
+      "title": "第1章习题覆盖总表",
+      "category": "项目",
+      "section": "项目",
+      "sourceSha256": "c6f1b048b9703c865436403cdfea7cd1585fe11c7ad849e0a5bb6953150e3a6d"
+    },
+    {
+      "title": "第1章补充习题讲解（一）矩阵、谱与表象",
+      "category": "项目",
+      "section": "项目",
+      "sourceSha256": "a4e4b0d54e15eb570f946ccd2041af95d5df20c80c3afe2092ea35c33f040c9a"
+    },
+    {
+      "title": "第1章补充习题讲解（三）冰锥的量子倾倒时间",
+      "category": "项目",
+      "section": "项目",
+      "sourceSha256": "95675f3d6813c2ea01caa863bc1717728de01b45208f532c9fa644c60fcc7877"
+    },
+    {
+      "title": "第1章补充习题讲解（二）反对易、简并与不确定性",
+      "category": "项目",
+      "section": "项目",
+      "sourceSha256": "bd3b2cd245164c5f393a5f352d83789620d61d527b1b71b06deacca4ac89237d"
+    },
+    {
+      "title": "第2章习题覆盖总表",
+      "category": "项目",
+      "section": "项目",
+      "sourceSha256": "2a2953ddb2e7ace1b27177249e665a26d6bd32e6dba44fac5b47651c8c99cc0a"
+    },
+    {
+      "title": "第2章补充习题讲解（一）波包与不确定性",
+      "category": "项目",
+      "section": "项目",
+      "sourceSha256": "b9bcb80fe5078b838ca568627a760102cae9f27619aef7dee63382c82d11e57d"
+    },
+    {
+      "title": "第3章习题覆盖总表",
+      "category": "项目",
+      "section": "项目",
+      "sourceSha256": "990aabfce137694bb1dc53643a47956397563c48a6a7bb3a07165169185c09bb"
+    },
+    {
+      "title": "第4章习题覆盖总表",
+      "category": "项目",
+      "section": "项目",
+      "sourceSha256": "e0c1a8ca9af004fcbb8d5b16f46da927b2773ee05f25d715029c574e94871699"
+    },
+    {
+      "title": "第5章习题覆盖总表",
+      "category": "项目",
+      "section": "项目",
+      "sourceSha256": "6b290f8749ef217dbd5af396a212ae35644442e593951e4b5b020592ad2c7f1b"
+    },
+    {
+      "title": "第6章习题覆盖总表",
+      "category": "项目",
+      "section": "项目",
+      "sourceSha256": "cf4f379e3f105e8544f989d39c194d237c9fdef8c73c5c3e2369c4fcbef1f68a"
+    },
+    {
+      "title": "第6章原题6.14 中心场与库仑简并",
+      "category": "项目",
+      "section": "项目",
+      "sourceSha256": "f5dafe86a439b97b841bc7c081271d12abc97f3890682aaf26098065ab8b9c94"
+    },
+    {
+      "title": "第7章习题覆盖总表",
+      "category": "项目",
+      "section": "项目",
+      "sourceSha256": "4b88ec97ac4abca24e7675e639f7474c3b3c15ab4a9fea254913af95ced920ad"
+    },
+    {
+      "title": "第8章习题覆盖总表",
+      "category": "项目",
+      "section": "项目",
+      "sourceSha256": "5b1a64c59bf525f2712b4665be6d997f2b142d2f5ff641e0a8175dd9913a7edb"
+    },
+    {
+      "title": "学习进度",
+      "category": "项目",
+      "section": "项目",
+      "sourceSha256": "41643aefaccb0e26a7c0bb54b0dc9e8a289b5f84c9f296505d49c63958773318"
+    },
+    {
+      "title": "符号与概念索引",
+      "category": "项目",
+      "section": "项目",
+      "sourceSha256": "91443c0b0f90356e906d1d315368b759233d9e51a979887f2df836325460ed21"
+    }
+  ],
+  "pdfSupplements": [
+    {
+      "file": "legacy/assets/井孝功_郑仰东_习题解答_原书.pdf",
+      "pages": 222,
+      "originalPagePreserved": true
+    },
+    {
+      "file": "legacy/assets/knowledge/第一章.pdf",
+      "pages": 43,
+      "originalPagePreserved": true
+    },
+    {
+      "file": "legacy/assets/knowledge/第三章.pdf",
+      "pages": 52,
+      "originalPagePreserved": true
+    },
+    {
+      "file": "legacy/assets/knowledge/第二章.pdf",
+      "pages": 55,
+      "originalPagePreserved": true
+    },
+    {
+      "file": "legacy/assets/knowledge/第五章.pdf",
+      "pages": 53,
+      "originalPagePreserved": true
+    },
+    {
+      "file": "legacy/assets/knowledge/第四章.pdf",
+      "pages": 45,
+      "originalPagePreserved": true
+    },
+    {
+      "file": "legacy/assets/references/第2讲.pdf",
+      "pages": 116,
+      "originalPagePreserved": true
+    },
+    {
+      "file": "legacy/assets/references/第3讲 (1.pdf",
+      "pages": 124,
+      "originalPagePreserved": true
+    },
+    {
+      "file": "legacy/assets/references/第4讲.pdf",
+      "pages": 39,
+      "originalPagePreserved": true
+    },
+    {
+      "file": "legacy/assets/references/第5讲.pdf",
+      "pages": 66,
+      "originalPagePreserved": true
+    },
+    {
+      "file": "legacy/assets/references/纠缠态.pdf",
+      "pages": 17,
+      "originalPagePreserved": true
+    },
+    {
+      "file": "legacy/assets/references/高等量子力学第三章对称性与守恒定律.pdf",
+      "pages": 53,
+      "originalPagePreserved": true
+    },
+    {
+      "file": "legacy/assets/references/高等量子力学第二章密度矩阵.pdf",
+      "pages": 60,
+      "originalPagePreserved": true
+    },
+    {
+      "file": "legacy/assets/references/高等量子力学第五章相对论量子力学.pdf",
+      "pages": 54,
+      "originalPagePreserved": true
+    },
+    {
+      "file": "legacy/assets/references/高等量子力学第四章量子散射理论.pdf",
+      "pages": 46,
+      "originalPagePreserved": true
+    },
+    {
+      "file": "references/ADVQM1.pdf",
+      "pages": 37,
+      "originalPagePreserved": true
+    },
+    {
+      "file": "references/ADVQM2.pdf",
+      "pages": 25,
+      "originalPagePreserved": true
+    },
+    {
+      "file": "references/ADVQM3.pdf",
+      "pages": 40,
+      "originalPagePreserved": true
+    },
+    {
+      "file": "references/ADVQM4.pdf",
+      "pages": 27,
+      "originalPagePreserved": true
+    },
+    {
+      "file": "references/ADVQM5.pdf",
+      "pages": 9,
+      "originalPagePreserved": true
+    }
+  ],
+  "extraExercises": 171,
+  "extraTopics": 47,
+  "mastery": "保留原记录；材料齐备不代表个人阅读、作答或掌握。"
+}

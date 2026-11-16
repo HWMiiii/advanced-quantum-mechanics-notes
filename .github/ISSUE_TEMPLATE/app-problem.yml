@@ -1,0 +1,25 @@
+name: 运行或界面问题
+description: 报告离线阅读器启动、显示、搜索或打印问题。
+title: "[运行问题] "
+body:
+  - type: input
+    id: version
+    attributes:
+      label: App 和内容版本
+      placeholder: "App 1.0.0 / HWM-AQM-WEB-20261116-v1"
+    validations:
+      required: true
+  - type: input
+    id: system
+    attributes:
+      label: Windows 版本与架构
+      placeholder: "Windows 10 22H2，x64"
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: 操作步骤、预期结果与实际结果
+      description: 请注明章节或页面名称，附必要截图或错误文字，避免公开个人敏感信息。
+    validations:
+      required: true

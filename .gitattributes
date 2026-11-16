@@ -1,0 +1,8 @@
+# Preserve signed files byte-for-byte on every platform.
+verification/* -text whitespace=cr-at-eol
+assets/* -text
+*.md text eol=lf
+*.yml text eol=lf
+*.txt text eol=lf
+.gitattributes text eol=lf
+.gitignore text eol=lf

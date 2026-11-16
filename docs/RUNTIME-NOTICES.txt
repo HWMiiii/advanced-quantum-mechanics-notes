@@ -1,0 +1,33 @@
+﻿运行组件与许可说明
+
+憨味米和 Chat GPT 制作
+
+本阅读器使用 Microsoft Edge WebView2 显示离线书页、公式、目录和搜索结果。微软运行组件与本阅读器分别享有各自的权利；本阅读器不是微软产品，也未获微软背书。
+
+一、随包组件
+• Microsoft.Web.WebView2 SDK 1.0.4314.35：Core、WinForms 和 x64 Loader。
+• Microsoft Edge WebView2 Fixed Version Runtime 157.0.4341.60 x64：runtime 文件夹中的完整官方运行组件。
+• Windows 提供的 .NET Framework 是宿主依赖，并不等同于上述 WebView2 运行时。
+
+SDK 的版权、再分发条件与声明见 WebView2-SDK-LICENSE.txt；第三方通知见 WebView2-SDK-NOTICE.txt，均保留官方原文。固定版运行时适用 WebView2-Runtime-Fixed-Version-License.html 中的微软条款。使用运行组件即适用其条款；本说明不替代完整许可。
+
+二、使用与转交
+请将完整阅读器解压到自己拥有的本地文件夹，并从阅读器程序进入。不要只复制 EXE，也不要删除、修改或拆分 runtime 目录及许可文件。运行时不能从 UNC 网络共享路径直接启动。
+
+Windows 10 下，阅读器可能为随包 runtime 目录补充两个 Windows 应用容器组所需的读取/执行权限，以满足微软固定版运行时的要求；操作仅限本阅读器内的运行组件，不申请管理员权限、不修改系统已安装的 Edge/WebView2 或其注册表。若无法设置，请重新解压到自己的本地文件夹。Windows 11 不需要这一步。
+
+阅读器为自己的会话创建独立临时目录；关闭时在运行进程退出后尝试清理。不会使用或删除个人浏览器资料。不能确认归属、仍有相关进程使用或含目录链接的历史会话会保留，不会强行删除。
+
+固定版运行时不会自动更新。本阅读器后续版本可携带更新后的运行组件；请保留整包结构及微软、第三方许可和通知。本组件不应作为独立产品再发行。书页内容的署名及使用边界请参阅阅读器内的“署名与使用说明”；微软组件许可不改变原著与整理内容的权利归属。
+
+三、微软组件的数据与许可通知
+微软许可说明运行组件可能收集并向微软发送使用信息。若 Microsoft Defender SmartScreen 保持启用，它会收集并发送微软隐私声明中说明的相关信息；若本阅读器关闭此功能，则该启用状态说明不适用。具体以应用设置和随包微软完整许可为准。
+微软隐私声明：https://aka.ms/privacy
+SmartScreen 说明：https://learn.microsoft.com/en-us/microsoft-edge/privacy-whitepaper#smartscreen
+
+运行时包含 Chromium 及其他第三方组件。runtime 中的 show_third_party_software_licenses.bat 是微软随附的许可证查看入口；请保留它及其依赖。相应开源资料的获取方式见官方许可及 SDK NOTICE。
+
+官方资料（核验于 2026-11-16）
+• SDK：https://www.nuget.org/packages/Microsoft.Web.WebView2/1.0.4314.35
+• 运行组件：https://developer.microsoft.com/en-us/microsoft-edge/webview2/
+• 离线发行：https://learn.microsoft.com/en-us/microsoft-edge/webview2/concepts/distribution

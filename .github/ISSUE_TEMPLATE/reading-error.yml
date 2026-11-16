@@ -1,0 +1,17 @@
+name: 文字或数学勘误
+description: 提交原著引用、讲解、题解或数学排版的核对线索。
+title: "[勘误] "
+body:
+  - type: input
+    id: location
+    attributes:
+      label: 版本、章节、页面标题及公式编号或原书页码
+    validations:
+      required: true
+  - type: textarea
+    id: correction
+    attributes:
+      label: 具体问题、建议修改与依据
+      description: 请区分原书问题、学习讲解问题和软件排版问题。
+    validations:
+      required: true

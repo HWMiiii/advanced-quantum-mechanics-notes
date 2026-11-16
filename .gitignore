@@ -1,0 +1,12 @@
+# This repository contains publication documentation and public verification only.
+*.zip
+*.exe
+*.dll
+*.pdb
+*.hwm
+private/
+build/
+runtime/
+node_modules/
+*.key
+*private*.pem
