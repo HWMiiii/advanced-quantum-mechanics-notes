@@ -6,7 +6,7 @@ body:
     id: version
     attributes:
       label: App 和内容版本
-      placeholder: "App 1.0.0 / HWM-AQM-WEB-20261116-v1"
+      placeholder: "App 1.0.1 / HWM-AQM-WEB-20261116-v1 / 修订 2026-11-20"
     validations:
       required: true
   - type: input

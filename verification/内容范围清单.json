@@ -1,7 +1,8 @@
 {
   "appId": "cn.hanweimi.aqm.reader",
-  "appVersion": "1.0.0",
-  "appEdition": "HWM-AQM-APP-20261116-v1",
+  "appVersion": "1.0.1",
+  "appEdition": "HWM-AQM-APP-v1.0.1",
+  "contentRevision": "2026-11-20",
   "contentEdition": "HWM-AQM-WEB-20261116-v1",
   "credit": "憨味米和 Chat GPT 制作",
   "stats": {

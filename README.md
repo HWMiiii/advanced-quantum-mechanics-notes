@@ -6,7 +6,7 @@
 
 **憨味米和 Chat GPT 制作。** 主线依据 J. J. Sakurai（樱井纯）、Jim Napolitano（拿波里塔诺）《现代量子力学（原书第3版）》中文版整理。本项目含 AI 辅助内容，是非官方学习资料；请结合原著、课程要求和自己的推导使用。
 
-**[下载 Windows 完整离线 App](https://github.com/HWMiiii/advanced-quantum-mechanics-notes/releases/latest)** · [v1.0.0 发布说明](https://github.com/HWMiiii/advanced-quantum-mechanics-notes/releases/tag/app-v1.0.0) · [使用说明](docs/USAGE.md) · [常见问题](docs/FAQ.md) · [验收记录](docs/VALIDATION.md)
+**[下载 Windows 完整离线 App v1.0.1](https://github.com/HWMiiii/advanced-quantum-mechanics-notes/releases/download/app-v1.0.1/Advanced-Quantum-Mechanics-Reader-v1.0.1-win-x64.zip)** · [v1.0.1 发布说明](https://github.com/HWMiiii/advanced-quantum-mechanics-notes/releases/tag/app-v1.0.1) · [使用说明](docs/USAGE.md) · [常见问题](docs/FAQ.md) · [验收记录](docs/VALIDATION.md)
 
 本项目现以加密离线 App 发行。当前分支中的 Obsidian 笔记目录与旧 Obsidian Release 已撤下；下载请使用 Release 附件中的完整 App ZIP。
 
@@ -47,7 +47,7 @@
 
 另外保留既有学习站中按井孝功、郑仰东《高等量子力学习题解答》正文编号整理的 **171 道习题、47 个知识点专题**，以及 **20 份附录 PDF**（原站 15 份、本地田光善讲义 5 份）。来源和整理状态继续保留原标注。计算程序与数据以只读资料页提供，不会自动执行。
 
-**整本主教材 PDF 不随 App 分发。** 教材页码链接进入第3版来源定位说明，请自备有权使用且页码匹配的版本。历史单文件阅读页中的第2版参考入口，不能用于替代第3版主笔记的页码。
+**整本主教材 PDF 不随 App 分发。** 第一次点击教材页码时，选择自己使用的第三版中文 PDF。以后点击讲义的页码即可查看对应原页。历史单文件阅读页中的第2版参考入口，不能用于替代第3版主笔记的页码。
 
 ## 阅读功能
 
@@ -55,7 +55,8 @@
 - **全文搜索**：`Ctrl+K` 或搜索按钮；搜索覆盖主笔记、补充习题和专题，共 432 个检索条目。
 - **离线数学排版**：主笔记 39,861 处公式预排为本地矢量图像；补充站随包提供 KaTeX 与字体，公式显示不依赖网络。
 - **图片与引用**：图片放大、页内目录、内部链接与已存在的段落锚点；引用原著的公式编号保留原约定。
-- **阅读设置**：亮暗主题、正文字号与最近阅读页保存在本机。
+- **阅读设置**：首页的“继续上次阅读”会回到上次读到的段落。亮暗主题、正文字号和自测勾选保存在本机。
+- **做题与自测**　171 道补充题各有可搜索的“本题第一步”。本版修复了 69 道题中的 131 处公式。讲义与习题共有 1,467 项可勾选自测，重新打开阅读器后仍可查看。
 - **正常摘录与打印**：保留复制、截图和打印；阅读页与打印页保留“憨味米和 Chat GPT 制作”及版本信息。
 - **版本与校验**：启动时检查发行文件与内容；上方按钮或 `Alt+V` 可重新校验。
 
@@ -63,7 +64,7 @@
 
 ## 下载和运行
 
-1. 前往 [最新 Release](https://github.com/HWMiiii/advanced-quantum-mechanics-notes/releases/latest)，下载 **`Advanced-Quantum-Mechanics-Reader-v1.0.0-win-x64.zip`** 和 `SHA256SUMS.txt`。
+1. 前往 [最新 Release](https://github.com/HWMiiii/advanced-quantum-mechanics-notes/releases/latest)，下载 **`Advanced-Quantum-Mechanics-Reader-v1.0.1-win-x64.zip`** 和 `SHA256SUMS.txt`。
 2. **完整解压**到自己拥有的本地文件夹；不要在压缩软件预览窗口内运行，也不要从 UNC 网络共享路径启动。
 3. 双击 **`高等量子力学阅读器.exe`**，等待启动校验结束。
 4. 保留同目录下的 `runtime`、DLL、配置、签名与许可文件。分享给朋友时发送完整 ZIP，不能只发送 EXE。
@@ -84,26 +85,26 @@ GitHub 的 **Source code (zip / tar.gz)** 是本仓库说明文件的快照，**
 
 程序没有受信任的 Windows 发布者代码签名。遇到“未知发布者”提示时，请先核对仓库、Release 和文件指纹；不要把内容签名当成 Windows 发布者证书。
 
-## v1.0.0 版本和校验
+## v1.0.1 版本和校验
 
 | 项目 | 值 |
 |---|---|
-| GitHub 发布标签 | `app-v1.0.0`，用于区分已撤下的旧 Obsidian `v1.0.0` |
-| App | `1.0.0 / HWM-AQM-APP-20261116-v1` |
-| 内容版本 | `HWM-AQM-WEB-20261116-v1` |
-| ZIP 大小 | **490,241,335 字节**，约 490 MB / 467.5 MiB |
-| 文件名 | `Advanced-Quantum-Mechanics-Reader-v1.0.0-win-x64.zip` |
+| GitHub 发布标签 | `app-v1.0.1` |
+| App | `1.0.1 / HWM-AQM-APP-v1.0.1` |
+| 内容版本 | `HWM-AQM-WEB-20261116-v1`，修订于 2026-11-20 |
+| ZIP 大小 | **490,291,660 字节**，约 490 MB / 467.6 MiB |
+| 文件名 | `Advanced-Quantum-Mechanics-Reader-v1.0.1-win-x64.zip` |
 
 ZIP SHA-256：
 
 ```text
-752821914aa45de4605821075918037b848f6b5f873650ef2a8706f20bcfc35a
+ab50fb669a2d41261b1bdbf4feab2e979dc177b606ab0e0c79431bfb5c22a34c
 ```
 
 可在下载目录用 PowerShell 核对：
 
 ```powershell
-Get-FileHash -LiteralPath '.\Advanced-Quantum-Mechanics-Reader-v1.0.0-win-x64.zip' -Algorithm SHA256
+Get-FileHash -LiteralPath '.\Advanced-Quantum-Mechanics-Reader-v1.0.1-win-x64.zip' -Algorithm SHA256
 ```
 
 比对 [SHA256SUMS.txt](SHA256SUMS.txt) 和本版本发布记录。另附 [发行文件清单](verification/版本清单.json)、[签名](verification/版本签名.sig)、[公开校验公钥](verification/版本校验公钥.pem) 和 [内容范围清单](verification/内容范围清单.json)。SHA-256 核对字节是否一致，不能单独证明发布者身份。
@@ -120,11 +121,7 @@ App 使用独立的临时会话，不使用或修改个人浏览器资料。正�
 
 ## 验收范围
 
-已在真实 App 中检查目录、搜索、同节切换、上下节、复杂公式、内部链接、图片放大、主题字号和打印署名；补充站逐项检查 171 道习题与 47 个专题的数学排版。最终 ZIP 已在全新位置解压，验证文件指纹、实际启动、版本校验及正常退出清理。
-
-另完成 26 项内容加载/损坏/篡改测试、正式 EXE 密文修改拒绝测试和 12 项会话边界/锁定/重试检查。制作前的 627 项原文件指纹最终全部一致，原笔记与已有网页保留。
-
-这些结果是本机软件封装和代表性阅读验收，**不等于全部数学内容正确，也不等于所有电脑都已经测试**。原笔记没有 Markdown 脚注定义；实测的脚注往返位于制作说明页，不冒称为原著脚注。详细边界见 [验收记录](docs/VALIDATION.md)。
+v1.0.1 在断网环境中连续启动了三次，核对了自测勾选、续读位置和本地教材的恢复及移除。171 道补充题的 2,309 个解答公式均已打开检查。分享 ZIP 在全新位置解压后，正式程序验证了 277 个发行文件及 23,952 项内容资源的指纹，并实际从首页搜到了补充题 1.3。[完整验收记录](docs/VALIDATION.md)
 
 ## 问题反馈和勘误
 
@@ -143,4 +140,4 @@ App 使用独立的临时会话，不使用或修改个人浏览器资料。正�
 
 建议引用：
 
-> 《高等量子力学阅读器》，憨味米和 Chat GPT 制作；主线依据 J. J. Sakurai、Jim Napolitano《现代量子力学（原书第3版）》中文版；内容 HWM-AQM-WEB-20261116-v1，App v1.0.0。
+> 《高等量子力学阅读器》，憨味米和 Chat GPT 制作；主线依据 J. J. Sakurai、Jim Napolitano《现代量子力学（原书第3版）》中文版；内容 HWM-AQM-WEB-20261116-v1，2026-11-20 修订，App v1.0.1。

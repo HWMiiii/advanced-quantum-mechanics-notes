@@ -1,9 +1,10 @@
 {
   "format": 1,
   "appId": "cn.hanweimi.aqm.reader",
-  "appVersion": "1.0.0",
-  "appEdition": "HWM-AQM-APP-20261116-v1",
+  "appVersion": "1.0.1",
+  "appEdition": "HWM-AQM-APP-v1.0.1",
   "contentEdition": "HWM-AQM-WEB-20261116-v1",
+  "contentRevision": "2026-11-20",
   "credit": "憨味米和 Chat GPT 制作",
   "platform": "Windows x64 / .NET Framework 4.8",
   "runtimeVersion": "157.0.4341.60",
@@ -1317,13 +1318,13 @@
     },
     {
       "path": "先读我.txt",
-      "bytes": 5115,
-      "sha256": "96bebb8f2eaaf4ad212acaf51b3c5bcdfcdcc92e89dccf3e88e33753987b1f45"
+      "bytes": 5213,
+      "sha256": "e8579c55a7f296122b1c6c8413340f34a2c0110e268b0abdb13a10a026300083"
     },
     {
       "path": "内容范围清单.json",
-      "bytes": 49236,
-      "sha256": "8109362a47eb37682baa655558b58c98f8a5d7c732566504831c06d2e1b3b9ea"
+      "bytes": 49267,
+      "sha256": "b70e3e2da1f615d739aed329523407c0117172e948133384e6ec8b2ea570d6d3"
     },
     {
       "path": "版本校验公钥.pem",
@@ -1387,13 +1388,13 @@
     },
     {
       "path": "验收说明.txt",
-      "bytes": 3749,
-      "sha256": "28075c2fc9abb87a12aef1adb56386f84de99ebbf16a8b08ff3683c86e18f7d5"
+      "bytes": 1004,
+      "sha256": "5eabfe3471dcbf9876c141ff7b25f0ca9e671708779059a2f7d4e089af2da293"
     },
     {
       "path": "高等量子力学阅读器.exe",
-      "bytes": 168636928,
-      "sha256": "a94fa7898e163bcc491d864cf997cf71ecf248a0e7308d858c75677472b16da6"
+      "bytes": 168695296,
+      "sha256": "f3009222f07d7d691da25c9a32fe500c6fd91a58c8ea51c94e9af856396d217a"
     },
     {
       "path": "高等量子力学阅读器.exe.config",
