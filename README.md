@@ -1,4 +1,4 @@
-# 高等量子力学阅读器 · Windows 加密离线版
+# 高等量子力学阅读器 · Android / Windows 加密离线版
 
 **面向物理系本科高年级学生、研究生，以及有线性代数、微积分和量子力学基础的自学者。**
 
@@ -8,7 +8,20 @@
 
 **[下载 Windows 完整离线 App v1.0.1](https://github.com/HWMiiii/advanced-quantum-mechanics-notes/releases/download/app-v1.0.1/Advanced-Quantum-Mechanics-Reader-v1.0.1-win-x64.zip)** · [v1.0.1 发布说明](https://github.com/HWMiiii/advanced-quantum-mechanics-notes/releases/tag/app-v1.0.1) · [使用说明](docs/USAGE.md) · [常见问题](docs/FAQ.md) · [验收记录](docs/VALIDATION.md)
 
-本项目现以加密离线 App 发行。当前分支中的 Obsidian 笔记目录与旧 Obsidian Release 已撤下；下载请使用 Release 附件中的完整 App ZIP。
+**[下载安卓版 APK v1.0.1](https://github.com/HWMiiii/advanced-quantum-mechanics-notes/releases/download/android-v1.0.1/Advanced-Quantum-Mechanics-Reader-v1.0.1-Android.apk)** · [安卓发布说明](https://github.com/HWMiiii/advanced-quantum-mechanics-notes/releases/tag/android-v1.0.1) · [安卓安装、校验与实测范围](docs/ANDROID.md)
+
+| 使用设备 | 下载文件 | 操作方式 |
+|---|---|---|
+| 安卓手机 / 平板 | [Android APK v1.0.1](https://github.com/HWMiiii/advanced-quantum-mechanics-notes/releases/download/android-v1.0.1/Advanced-Quantum-Mechanics-Reader-v1.0.1-Android.apk)，约 166 MB | 下载后安装 APK；不需要解压 |
+| Windows 电脑 | [Windows x64 ZIP v1.0.1](https://github.com/HWMiiii/advanced-quantum-mechanics-notes/releases/download/app-v1.0.1/Advanced-Quantum-Mechanics-Reader-v1.0.1-win-x64.zip) | 完整解压后运行 EXE |
+
+安卓版要求 **Android 8.0 或更新版本、已启用的 Android System WebView 124 或更新版本**。公式、目录、搜索和习题随 APK 提供，安装后可断网阅读，不需要 Obsidian。只提供 APK 安装包，没有 iOS 版。
+
+本项目现以加密离线 App 发行。当前分支中的 Obsidian 笔记目录与旧 Obsidian Release 已撤下；请按设备下载 APK 或完整 Windows ZIP。GitHub 自动生成的 Source code 压缩包不是安装包。
+
+<img src="assets/android-reader-home.png" width="320" alt="安卓版首页，Android 15 模拟器实际运行截图">
+
+安卓版实际运行截图；[功能、使用方式和测试边界](docs/ANDROID.md)。
 
 ![阅读器首页与全书目录](assets/reader-home.png)
 
@@ -58,13 +71,13 @@
 - **阅读设置**：首页的“继续上次阅读”会回到上次读到的段落。亮暗主题、正文字号和自测勾选保存在本机。
 - **做题与自测**　171 道补充题各有可搜索的“本题第一步”。本版修复了 69 道题中的 131 处公式。讲义与习题共有 1,467 项可勾选自测，重新打开阅读器后仍可查看。
 - **正常摘录与打印**：保留复制、截图和打印；阅读页与打印页保留“憨味米和 Chat GPT 制作”及版本信息。
-- **版本与校验**：启动时检查发行文件与内容；上方按钮或 `Alt+V` 可重新校验。
+- **版本与校验**：启动时检查内容；安卓使用“更多 → 版本与校验”，Windows 使用上方按钮或 `Alt+V`。
 
 ![狄拉克方程代表页面的离线公式排版](assets/reader-formulas.png)
 
-## 下载和运行
+## Windows 下载和运行
 
-1. 前往 [最新 Release](https://github.com/HWMiiii/advanced-quantum-mechanics-notes/releases/latest)，下载 **`Advanced-Quantum-Mechanics-Reader-v1.0.1-win-x64.zip`** 和 `SHA256SUMS.txt`。
+1. 前往 [Windows v1.0.1 Release](https://github.com/HWMiiii/advanced-quantum-mechanics-notes/releases/tag/app-v1.0.1)，下载 **`Advanced-Quantum-Mechanics-Reader-v1.0.1-win-x64.zip`** 和 `SHA256SUMS.txt`。
 2. **完整解压**到自己拥有的本地文件夹；不要在压缩软件预览窗口内运行，也不要从 UNC 网络共享路径启动。
 3. 双击 **`高等量子力学阅读器.exe`**，等待启动校验结束。
 4. 保留同目录下的 `runtime`、DLL、配置、签名与许可文件。分享给朋友时发送完整 ZIP，不能只发送 EXE。
@@ -85,7 +98,7 @@ GitHub 的 **Source code (zip / tar.gz)** 是本仓库说明文件的快照，**
 
 程序没有受信任的 Windows 发布者代码签名。遇到“未知发布者”提示时，请先核对仓库、Release 和文件指纹；不要把内容签名当成 Windows 发布者证书。
 
-## v1.0.1 版本和校验
+## Windows v1.0.1 版本和校验
 
 | 项目 | 值 |
 |---|---|
@@ -115,19 +128,21 @@ Get-FileHash -LiteralPath '.\Advanced-Quantum-Mechanics-Reader-v1.0.1-win-x64.zi
 
 客户端必须能够解密内容，因此专业逆向、内存提取、正常摘录、截图和打印仍可能取得资料。**加密不能完全阻止提取或转售；本项目不宣称“无法复制”或“不可破解”。**
 
-App 使用独立的临时会话，不使用或修改个人浏览器资料。正常退出等待 WebView2 `BrowserProcessExited` 后再清理本次会话；无法确认归属、超时或文件仍被占用时保留以便重试，归属标记最后删除。操作系统分页、崩溃转储、截图和打印等仍可能留下痕迹，不能承诺绝对零磁盘痕迹。
+Windows App 使用独立的临时会话，不使用或修改个人浏览器资料。正常退出等待 WebView2 `BrowserProcessExited` 后再清理本次会话；无法确认归属、超时或文件仍被占用时保留以便重试，归属标记最后删除。操作系统分页、崩溃转储、截图和打印等仍可能留下痕迹，不能承诺绝对零磁盘痕迹。
 
 本仓库现用于 App 发布、说明与问题反馈，不发布应用构建源码。旧 Obsidian 发布入口与当前分支的笔记已撤下，**但这不保证历史提交、缓存、他人克隆或已经下载的旧副本消失，更不能让旧副本远程失效**。
 
 ## 验收范围
 
-v1.0.1 在断网环境中连续启动了三次，核对了自测勾选、续读位置和本地教材的恢复及移除。171 道补充题的 2,309 个解答公式均已打开检查。分享 ZIP 在全新位置解压后，正式程序验证了 277 个发行文件及 23,952 项内容资源的指纹，并实际从首页搜到了补充题 1.3。[完整验收记录](docs/VALIDATION.md)
+Windows v1.0.1 在断网环境中连续启动了三次，核对了自测勾选、续读位置和本地教材的恢复及移除。171 道补充题的 2,309 个解答公式均已打开检查。分享 ZIP 在全新位置解压后，正式程序验证了 277 个发行文件及 23,952 项内容资源的指纹，并实际从首页搜到了补充题 1.3。[完整验收记录](docs/VALIDATION.md)
+
+安卓版另在 Android 15 模拟器中做了断网安装与运行、目录、搜索、公式、图片、主题字号、PDF、打印、重启恢复和篡改拒绝检查。**尚未在实体手机或其他 Android 系统版本上测试。** [安卓验收范围](docs/ANDROID.md#本轮实测)
 
 ## 问题反馈和勘误
 
 请通过 [Issues](https://github.com/HWMiiii/advanced-quantum-mechanics-notes/issues/new/choose) 提交运行问题或内容勘误。
 
-- 运行问题：App/内容版本、Windows 版本、所在章节、操作步骤、预期与实际结果，附必要截图或错误文字。
+- 运行问题：App/内容版本、Android 或 Windows 版本、所在章节、操作步骤、预期与实际结果，附必要截图或错误文字。
 - 数学或文字勘误：章节、页面标题、公式编号或原书页码、具体问题、建议修改与依据；区分原书、学习讲解和软件排版问题。
 
 ## 署名与资料权利

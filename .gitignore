@@ -10,3 +10,9 @@ runtime/
 node_modules/
 *.key
 *private*.pem
+
+# Android installation artifacts are Release assets only.
+*.apk
+*.p12
+*.jks
+*.idsig
